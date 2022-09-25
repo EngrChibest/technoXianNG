@@ -50,8 +50,8 @@ const NFTs = ({
   
   
   const getNfts = async () => {
-    const contract = await new web3.eth.Contract(contractABI, contractAddress)
-    const totalSupply = await contract.methods.totalSupply().call()
+    const contract = 'await new web3.eth.Contract(contractABI, contractAddress)'
+    const totalSupply = 'await contract.methods.totalSupply().call()'
 
     console.log('totalSupply', totalSupply)
     

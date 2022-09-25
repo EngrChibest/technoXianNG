@@ -10,9 +10,9 @@ const ConnectButton = () => {
 
     useEffect(() => {      
         async function fetchWallet() {
-          const {address, status} = await getCurrentWalletConnected();
-          setWallet(address);
-          setStatus(status); 
+         // const {address, status} = await getCurrentWalletConnected();
+        //   setWallet(address);
+        //   setStatus(status); 
           addWalletListener();
         }
         fetchWallet();
