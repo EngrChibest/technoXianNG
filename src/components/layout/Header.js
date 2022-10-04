@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/images/logo.png';
+import Logo from '../../assets/images/nav-logo.png';
 import ConnectButton from '../elements/ConnectButton';
 
 const propTypes = {
@@ -75,6 +75,17 @@ const Header = ({
     className
   );
 
+
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <header
       {...props}
@@ -88,7 +99,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           {/* <Logo /> */}
-          <Link to="/"><img src={ Logo } width="60" alt="" className="float-righ"/></Link>
+          <Link to="/"><img src={ Logo } width="150" alt="" className="float-righ"/></Link>
           {/* <h3>Numeri</h3> */}
           {!hideNav &&
             <>
@@ -116,8 +127,20 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                       <li>
-                      <Link to="/collections" onClick={closeMenu}>My Collections</Link>
-                    </li>
+                        <Link to="/" onClick={closeMenu}>Home</Link>
+                      </li>
+                      <li>
+                        <Link to="/collections" onClick={closeMenu}>About Us</Link>
+                      </li>
+                      <li>
+                        <Link to="/collections" onClick={closeMenu}>Our Services</Link>
+                      </li>
+                      <li>
+                        <Link to="/collections" onClick={closeMenu}>Community</Link>
+                      </li>
+                      <li>
+                        <Link to="/collections" onClick={closeMenu}>Help</Link>
+                      </li>
                   </ul>
                   {!hideSignin &&
                     <ul
