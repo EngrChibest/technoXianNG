@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from '../views/Home'
-import MintNFT from '../views/MintNFT'
-import Collections from '../views/Collections';
 import About from '../views/About';
 import HomeRobo from '../views/HomeRobotics';
 import RoboClub from '../views/RoboClub';
