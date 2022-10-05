@@ -160,7 +160,7 @@ const Header = ({
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/home-roboclub" style={{color: 'black'}}>Home Roboclub</Link>
+                            <Link to="/home-roboclub" style={{color: 'black'}}>Home Robotics Club</Link>
                             <Link to="/robotics-club" style={{color: 'black'}}> School Robotics Club</Link>
                             <Link to="/nxr-lab" style={{color: 'black'}}>NXR Lab</Link>
                           </div>
