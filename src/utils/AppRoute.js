@@ -22,7 +22,6 @@ const AppRoute = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home/>} />
-        <Route path="/mint" element={<MintNFT />} />
         <Route path="/about" element={<About />} />
         <Route path="/home-roboclub" element={<HomeRobo />} />
         <Route path="/robotics-club" element={<RoboClub />} />
