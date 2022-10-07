@@ -4,6 +4,7 @@ import { Divider } from '@mui/material';
 import Hero from '../components/sections/home/Hero';
 import Beneficts from '../components/sections/home/Beneficts'
 import Services from '../components/sections/home/Services'
+import Partners from '../components/sections/home/Partners';
 
 import LayoutDefault from '../layouts/LayoutDefault'
 
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <Beneficts/>
       <Services/>
+      <Partners/>
     </LayoutDefault>
   );
 }
