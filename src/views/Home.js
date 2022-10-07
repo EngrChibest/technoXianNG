@@ -6,6 +6,7 @@ import Beneficts from '../components/sections/home/Beneficts'
 import Services from '../components/sections/home/Services'
 import Partners from '../components/sections/home/Partners';
 import Table from '../components/sections/home/Table';
+import Newsletter from '../components/sections/home/Newsletter';
 
 import LayoutDefault from '../layouts/LayoutDefault'
 
@@ -18,6 +19,7 @@ const Home = () => {
       <Services/>
       <Partners/>
       <Table/>
+      <Newsletter/>
     </LayoutDefault>
   );
 }

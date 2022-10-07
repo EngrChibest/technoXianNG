@@ -2371,6 +2371,154 @@ textarea.form-input {
     padding: 1% 4% !important;
 }
 
+.border-white {
+  border: 1px solid #00b9bc !important;
+  background-color: inherit;
+  height: 45.75px;
+  padding-left: 3%;
+  color: #fff !important;
+  outline: 0;
+}
+
+.subform-width,
+.subform-width:hover,
+.subform-width:active {
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #00b9bc !important;
+  border-radius: 10px;
+}
+
+.alert-width {
+  width: 60%;
+}
+
+.subform-width-1 {
+  width: 100%;
+  max-width: 30%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.subform-width-2 {
+  width: 100%;
+  max-width: 50%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+@media (max-width: 1030px) {
+  .subform-width,
+  .subform-width:hover,
+  .subform-width:active {
+    width: 70%;
+    border-radius: 10px;
+  }
+
+  .subform-width-1 {
+    width: 100%;
+    max-width: 30%;
+  }
+  .subform-width-2 {
+    width: 100%;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .newletter-mobile {
+    height: 50vh !important;
+  }
+
+  .border-white {
+    padding-left: 5%;
+    display: block;
+    margin-bottom: 7%;
+  }
+
+  .subform-width,
+  .subform-width:hover,
+  .subform-width:active {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .alert-width {
+    width: 100%;
+  }
+
+  .subform-width-1 {
+    width: 100%;
+    max-width: 180%;
+    border-radius: 10px;
+  }
+  .subform-width-2 {
+    width: 100%;
+    max-width: 180%;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .newletter-mobile {
+    height: 45vh !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .newletter-mobile {
+    height: 60vh !important;
+  }
+}
+
+#newsletter-text {
+  color: #000 !important;
+}
+
+.job-subscribe-btn {
+  position: absolute;
+  right: 11.2%;
+  top: 20%;
+}
+
+.subscribe-btn {
+  position: absolute;
+  right: 20.8%;
+  top: 11.5%;
+}
+
+@media (max-width: 1030px) {
+  .subscribe-btn {
+    position: absolute;
+    right: 15%;
+    top: 9%;
+  }
+  .job-subscribe-btn {
+    position: absolute;
+    right: 7.2%;
+    top: 21%;
+  }
+}
+
+@media (max-width: 600px) {
+  .subscribe-btn,
+  .job-subscribe-btn {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 0 auto;
+  }
+
+  .subscribe-btn {
+    top: 140%;
+  }
+
+  .job-subscribe-btn {
+    top: 95%;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
