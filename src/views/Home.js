@@ -5,6 +5,7 @@ import Hero from '../components/sections/home/Hero';
 import Beneficts from '../components/sections/home/Beneficts'
 import Services from '../components/sections/home/Services'
 import Partners from '../components/sections/home/Partners';
+import Table from '../components/sections/home/Table';
 
 import LayoutDefault from '../layouts/LayoutDefault'
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Beneficts/>
       <Services/>
       <Partners/>
+      <Table/>
     </LayoutDefault>
   );
 }
