@@ -2395,13 +2395,13 @@ textarea.form-input {
 
 .subform-width-1 {
   width: 100%;
-  max-width: 30%;
+  max-width: 20%;
   border-radius: 10px 0px 0px 10px;
 }
 
 .subform-width-2 {
   width: 100%;
-  max-width: 50%;
+  max-width: 35%;
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -2475,7 +2475,7 @@ textarea.form-input {
 
 .job-subscribe-btn {
   position: absolute;
-  right: 11.2%;
+  right: 23.2%;
   top: 20%;
 }
 
