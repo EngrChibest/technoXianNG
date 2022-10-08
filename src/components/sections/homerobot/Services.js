@@ -12,7 +12,7 @@ const LearnLink = styled(Button)({
     fontSize: '16px',
 })
 
-export default function Beneficts (){
+export default function Services (){
     return (
         <div className="container-sm">
             <Grid container spacing={5} sx={{my:'10%'}}>

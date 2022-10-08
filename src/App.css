@@ -2498,6 +2498,36 @@ textarea.form-input {
   }
 }
 
+.pay-outline {
+  width: 100%;
+  max-width: 100%;
+  border: 3px solid #00A859;
+  border-radius: 20px;
+  padding: 7% 0% 7% 7%;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+.price-sign {
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 60px;
+  /* identical to box height */
+
+
+  color: rgba(0, 0, 0, 0.33);
+}
+
+.price-month {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+}
+
 @media (max-width: 600px) {
   .subscribe-btn,
   .job-subscribe-btn {
