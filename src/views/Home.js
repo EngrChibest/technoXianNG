@@ -9,6 +9,7 @@ import Table from '../components/sections/home/Table';
 import Newsletter from '../components/sections/home/Newsletter';
 import NewsUpdate from '../components/sections/home/NewsUpdate';
 import CTA from '../components/sections/home/CTA';
+import Gallery from '../components/sections/home/Gallery';
 
 import LayoutDefault from '../layouts/LayoutDefault'
 
@@ -23,6 +24,7 @@ const Home = () => {
       <Table/>
       <Newsletter/>
       <NewsUpdate/>
+      <Gallery/>
       <CTA/>
     </LayoutDefault>
   );
