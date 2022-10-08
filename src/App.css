@@ -2360,7 +2360,7 @@ textarea.form-input {
 }
 
 .benefict-card-two {
-  background: #F4F4F4;
+  background-color: #F4F4F4 !important;
   border-radius: 16px;
   padding: 10% 6%;
 }
