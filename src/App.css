@@ -2369,6 +2369,16 @@ textarea.form-input {
     box-shadow: 21px 21px 87px rgb(0 0 0 / 25%) !important;
     border-radius: 15px !important;
     padding: 1% 4% !important;
+    margin: 0 auto;
+}
+
+.table-container-two {
+  background: #FFFFFF !important;
+  box-shadow: 21px 21px 87px rgb(0 0 0 / 25%) !important;
+  border-radius: 15px !important;
+  padding: 1% 4% !important;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 .border-white {

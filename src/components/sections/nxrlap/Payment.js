@@ -19,8 +19,8 @@ const LearnLink = styled(Button)({
 export default function Payment (){
     return (
         <div className="container-sm">
-            <h3 style={{textTransform: 'capitalize'}}>we’ve got a plan that <br/> is perfect for you.</h3>
-            <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}}>
+            <h3 style={{textTransform: 'capitalize', marginTop: '10%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
+            <Grid container spacing={5} sx={{mb:'10%', mt: '3%'}}>
                 <Grid item xs={12} sm={3.6} md={3.6}>
                     <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
