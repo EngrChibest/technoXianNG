@@ -29,7 +29,7 @@ export default function Payment (){
                             <span className="price">20</span> 
                             <span className='price-month' >/Month</span>
                         </Typography>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
@@ -37,7 +37,7 @@ export default function Payment (){
                                 <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Secure your account</Typography>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
@@ -45,7 +45,7 @@ export default function Payment (){
                                 <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Up t0 2 credit cards</Typography>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
@@ -68,7 +68,7 @@ export default function Payment (){
                             <span className="price">20</span> 
                             <span className='price-month' >/Month</span>
                         </Typography>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
@@ -76,7 +76,7 @@ export default function Payment (){
                                 <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Secure your account</Typography>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
@@ -84,7 +84,7 @@ export default function Payment (){
                                 <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Up t0 2 credit cards</Typography>
                             </Grid>
                         </Grid>
-                        <Grid container spacing={2}>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
