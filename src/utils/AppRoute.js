@@ -14,10 +14,12 @@ import Contact from '../views/Contact';
 import Register from '../views/RoboClubForm';
 import Volunteer from '../views/VolunteerForm';
 import NXRLabForm from '../views/NXRLabFom';
+import ScrollToTop from './ScrollToTop';
 
 const AppRoute = () => {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />

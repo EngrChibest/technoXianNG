@@ -2567,6 +2567,75 @@ textarea.form-input {
 .hero-line {
   width: 40%;
   margin: 5% auto;
+  background-color: #D9D9D9;
+}
+
+#middle-section {
+  color: #000 !important;
+  background-color: #fff;
+  height: auto;
+  padding: 20px 30px;
+}
+
+@media (max-width: 1000px) {
+  #middle-section {
+    height: 100%;
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 768px) {
+  #middle-section {
+    height: auto;
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 450px) {
+  #middle-section {
+    color: #000 !important;
+    height: 100%;
+    padding: 20px 10px;
+  }
+}
+
+#contact-info-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-h3 {
+  margin-top: 40px;
+}
+
+.form-subtitle {
+  width: 100%;
+  max-width: 200px;
+}
+
+.Contact-form-box {
+  background: #ffffff;
+  padding: 0 20px;
+  max-width: 550px;
+  height: auto;
+  box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 1000px) {
+  .Contact-form-box {
+    background: #ffffff;
+    padding: 0 20px;
+    max-width: 550px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media (max-width: 450px) {
+  .Contact-form-box {
+    background: #ffffff;
+    padding: 10px 14px;
+    max-width: 550px;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.12);
+  }
 }
 
 

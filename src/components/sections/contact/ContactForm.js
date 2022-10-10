@@ -157,7 +157,7 @@ export default function ContactForm(){
               </Box>
             </Modal>
           </center>}
-            <h3 className="hero-h1 mt-0 mb-16 reveal-from-bottom contact-h3" data-reveal-delay="200" style={{color: '#2E2F6E'}}>
+            <h3 className="mt-0 mb-16 reveal-from-bottom contact-h3" data-reveal-delay="200" style={{color: '#2E2F6E', marginTop: '40px'}}>
                 Drop us a line
             </h3>
             <Typography variant='p' className='form-subtitle' fontSize={'17px'} sx={{lineHeight: '25px'}}>
