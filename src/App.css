@@ -2638,6 +2638,21 @@ textarea.form-input {
   }
 }
 
+.about-text-width {
+  width: 100%;
+  max-width: 50%;
+  margin: 2% auto;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 5% auto;
+  object-fit: cover;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
