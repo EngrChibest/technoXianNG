@@ -41,4 +41,12 @@ export default [
         description: `Selection, Elimination, Winning. 3000+ 
         Teams around the world to compete in 10 categories.`
     },
+    {
+        id: 6,
+        image: news,
+        date: 'July 2-5, 2023',
+        title: 'WRC CHALLENGES',
+        description: `Selection, Elimination, Winning. 3000+ 
+        Teams around the world to compete in 10 categories.`
+    },
 ]

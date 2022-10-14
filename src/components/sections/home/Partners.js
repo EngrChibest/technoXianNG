@@ -12,24 +12,28 @@ export default function Partners (){
                         <Image
                             src={require('./../../../assets/images/clients/amon.png')}
                             alt="Hero" 
+                            style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
                             src={require('./../../../assets/images/clients/Chams.png')}
                             alt="Hero" 
+                            style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
                             src={require('./../../../assets/images/clients/Amorsil.png')}
                             alt="Hero" 
+                            style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
                             src={require('./../../../assets/images/clients/ehealth.png')}
                             alt="Hero" 
+                            style={{margin: '0 auto'}}
                         />
                     </Grid>
                 </Grid>

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/images/nav-logo.png';
-import ConnectButton from '../elements/ConnectButton';
 import { Button, Menu, MenuItem } from '@mui/material';
 import { styled, useTheme } from '@mui/material/styles';
 

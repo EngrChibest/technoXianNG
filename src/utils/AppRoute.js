@@ -12,7 +12,7 @@ import Enterpreneurship from '../views/Enterpreneurship';
 import FAQs from '../views/FAQs';
 import Contact from '../views/Contact';
 import Register from '../views/RoboClubForm';
-import Volunteer from '../views/VolunteerForm';
+import Volunteer from '../views/Volunteer';
 import NXRLabForm from '../views/NXRLabFom';
 import ScrollToTop from './ScrollToTop';
 
