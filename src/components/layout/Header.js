@@ -192,6 +192,7 @@ const Header = ({
                             <Link to="/robotics-competition" style={{color: 'black'}}>Robotics Competition</Link>
                             <Link to="/corporate-club" style={{color: 'black'}}>Corporate Robo Club</Link>
                             <Link to="/enterpreneurship" style={{color: 'black'}}>Business Education</Link>
+                            <Link to="/volunteer" style={{color: 'black'}}>Volunteer</Link>
                           </div>
                         </div>
                       </li>
