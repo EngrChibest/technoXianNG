@@ -31,19 +31,19 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
                     {body} 
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <a href={link} target='_blank' rel="noopener noreferrer">
+                    <Link to={link}>
                         <LearnLink variant="text">
                             Learn More
                             <ChevronRightIcon fontSize="small"/>
                         </LearnLink>
-                    </a>
+                    </Link>
                 </div>
             </Grid>
         </Grid>
         :
         <Grid container spacing={5} sx={{my:'10%'}}>
         <Grid item xs={12} sm={6} md={6}>
-            <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+            <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>
             <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
             {title}
             </h3>

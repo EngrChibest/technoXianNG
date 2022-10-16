@@ -2355,7 +2355,7 @@ textarea.form-input {
 }
 
 .benefict-card {
-  padding: 3% 5%;
+  padding: 5% 5%;
   background: #FFFFFF;
   box-shadow: 3px 7px 34px 1px rgba(0, 0, 0, 0.25) !important;
 }
@@ -2670,6 +2670,11 @@ textarea.form-input {
   }
 }
 
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 80%;
+}
 
 /*--------------------------------------------------------------
 # Footer
