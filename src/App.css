@@ -2683,6 +2683,14 @@ textarea.form-input {
   }
 }
 
+.sub-title {
+  text-align: center;
+  text-transform: capitalize;
+  width: 60%;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+
 
 
 /*--------------------------------------------------------------

@@ -1,4 +1,9 @@
 import RoboRace from './../../../assets/images/features-split-image-03.png'
+import HomeRobo from './../../../assets/images/section/home/home-roboclub.jpg'
+import RoboClub from './../../../assets/images/section/home/robo-club.jpg'
+import NxRLab from './../../../assets/images/section/home/nxr-lab.jpg'
+import Corporate from './../../../assets/images/section/home/corporate.jpg'
+import Pitch from './../../../assets/images/section/home/pitch.jpg'
 
 export default [
     {
@@ -12,7 +17,7 @@ export default [
             putting pieces together! Explore and analyze the world around you 
             as you understand the science behind creating and programming a 
             robot.`,
-        img: RoboRace,
+        img: HomeRobo,
         link: '/home-roboclub'
     },
     {
@@ -26,7 +31,7 @@ export default [
             Building a robot is about more than just putting pieces together!
             Explore and analyze the world around you as you understand the science 
             behind creating and programming a robot.`,
-        img: RoboRace,
+        img: RoboClub,
         link: '/robotics-club'
     },
     {
@@ -39,7 +44,7 @@ export default [
         The concept established with the motto of "Creating an eco-system where 
         learners become inspired by robotics & automation technology, imbibe technology 
         and get exposure to international competitions.`,
-        img: RoboRace,
+        img: NxRLab,
         link: '/nxr-lab'
     },
     {
@@ -52,7 +57,7 @@ export default [
             across the world including Ministry of Electronics & IT (Meity), 
             Department of Science & Technology (DST), Government of India and 
             All India Council for Robotics & Automation (AICRA).`,
-        img: RoboRace,
+        img: Corporate,
         link: '/corporate-club'
     },
     {
@@ -65,7 +70,7 @@ export default [
         platform to showcase your ideas and get recognised. Participants 
         are supposed to compete with their project, concepts and innovative 
         ideas.`,
-        img: RoboRace,
+        img: Pitch,
         link: '/enterpreneurship'
     },
 ]

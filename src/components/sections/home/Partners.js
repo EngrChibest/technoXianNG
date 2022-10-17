@@ -10,28 +10,28 @@ export default function Partners (){
                 <Grid container spacing={6} sx={{pb: '5%', px: 'auto',display: 'flex', justifyContent: 'center'}}>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
-                            src={require('./../../../assets/images/clients/amon.png')}
+                            src={require('./../../../assets/images/section/home/Ministry.png')}
                             alt="Hero" 
                             style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
-                            src={require('./../../../assets/images/clients/Chams.png')}
+                            src={require('./../../../assets/images/section/home/Digital.png')}
                             alt="Hero" 
                             style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
-                            src={require('./../../../assets/images/clients/Amorsil.png')}
+                            src={require('./../../../assets/images/section/home/NEGD.png')}
                             alt="Hero" 
                             style={{margin: '0 auto'}}
                         />
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
-                            src={require('./../../../assets/images/clients/ehealth.png')}
+                            src={require('./../../../assets/images/section/home/AICRA.png')}
                             alt="Hero" 
                             style={{margin: '0 auto'}}
                         />

@@ -21,7 +21,8 @@ import NewsData from "./NewsData";
 export default function NewsUpdate() {
     return (
       <div className='container-sm' style={{marginTop: '7%', marginBottom: '7%'}}>
-        <h3 className='partner-header'>News Update.</h3>
+        <h3 style={{textAlign: 'center'}}>News & Updates</h3>
+        <p className="sub-title">Get the latest update of TechnoXian and most happening things in robotics and latest technologies</p>
         <Swiper
           breakpoints={{
             // when window width is >= 640px

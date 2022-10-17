@@ -1,9 +1,15 @@
 import news from '../../../assets/images/hero-image.png'
+import Seninar from '../../../assets/images/section/home/tech-seminar.jpg'
+import Challenge from '../../../assets/images/section/home/Challenges.jpg'
+import Award from '../../../assets/images/section/home/Award.png'
+import Inaugurate from '../../../assets/images/section/home/Inauguration.png'
+import AwardNG from '../../../assets/images/section/home/Awards-ng.jpg'
+import Summit from '../../../assets/images/section/home/African-summit.jpg'
 
 export default [
     {
         id: 1,
-        image: news,
+        image: Challenge,
         date: 'July 2-5, 2023',
         location: 'New Delhi',
         title: 'WRC CHALLENGES',
@@ -12,7 +18,7 @@ export default [
     },
     {
         id: 2,
-        image: news,
+        image: Award,
         date: 'July 2-5, 2023',
         location: 'New Delhi',
         title: 'AWARD CEREMONY',
@@ -21,7 +27,7 @@ export default [
     },
     {
         id: 3,
-        image: news,
+        image: Summit,
         date: 'July 2-5, 2023',
         location: 'New Delhi',
         title: 'TECH SEMINARS',
@@ -30,7 +36,7 @@ export default [
     },
     {
         id: 4,
-        image: news,
+        image: Inaugurate,
         date: 'July 2-5, 2023',
         location: 'New Delhi',
         title: 'WRC INAUGURATION',
@@ -39,7 +45,7 @@ export default [
     },
     {
         id: 5,
-        image: news,
+        image: AwardNG,
         date: 'Feburary 2-5, 2023',
         location: 'Abuja Nigeria',
         title: 'AWARD CEREMONY',
@@ -48,7 +54,7 @@ export default [
     },
     {
         id: 6,
-        image: news,
+        image: Seninar,
         date: 'Feburary 2-5, 2023',
         location: 'Abuja Nigeria',
         title: 'WRC CHALLENGES',

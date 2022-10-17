@@ -41,7 +41,7 @@ export default function Partners (){
                     </Grid>
                     <Grid item xs={12} sm={6} md={6}>
                         <Image
-                            src={require('./../../../assets/images/features-split-image-03.png')}
+                            src={require('./../../../assets/images/section/home/Join-us.jpg')}
                             alt="Hero" 
                         />
                     </Grid>
