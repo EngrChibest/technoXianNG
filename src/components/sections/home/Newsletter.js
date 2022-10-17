@@ -102,8 +102,8 @@ function Newsletter (){
             className='alert-width'>Thank You For Subscribing</Alert></Collapse>
           </center>}
           <Box >
-              <h4 id='newsletter-text'>Subscribe to job posting newsletter</h4>
-              <p id='newsletter-text'>and be the first to be notified </p>
+              <h4 id='newsletter-text'>Subscribe to our newsletter</h4>
+              <p id='newsletter-text'>and be the first to be notified of any current updates </p>
           </Box>
         </Grid>
         <Grid item xs={12} sm={12} md={12}>
@@ -141,7 +141,7 @@ function Newsletter (){
                         onChange={handleChange}
                       />
                       <div className='job-subscribe-btn'>
-                        <PrimaryButton bgColor={'#00B9BC'} text={'Subscribe'} />
+                        <PrimaryButton bgColor={'#00A859'} text={'Subscribe'} />
                       </div>
                     </center>
                   </Grid>

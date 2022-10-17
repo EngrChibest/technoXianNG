@@ -15,6 +15,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, Grid } from '@mui/material';
 import EventNoteIcon from '@mui/icons-material/EventNote';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import NewsData from "./NewsData";
 
 export default function NewsUpdate() {
@@ -66,17 +67,25 @@ export default function NewsUpdate() {
                 alt="green iguana"
               />
               <CardContent>
-                <Grid container spacing={1} sx={{mb: '2.5%'}}>
-                  <Grid item xs={1} sm={1} md={1}>
-                      <EventNoteIcon fontSize="small" />
-                  </Grid>
-                  <Grid item xs={11} sm={11} md={11}>
-                      <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>{items.date}</Typography>
-                  </Grid>
-                </Grid>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="body1" component="div">
                   {items.title}
                 </Typography>
+                <Grid container spacing={1} sx={{mb: '0.5%'}}>
+                  <Grid item xs={1} sm={1} md={1}>
+                      <EventNoteIcon fontSize="small" sx={{color: '#00A859'}} />
+                  </Grid>
+                  <Grid item xs={11} sm={11} md={11}>
+                      <Typography variant="caption" sx={{fontSize: '18px', lineHeight: '21px'}}>{items.date}</Typography>
+                  </Grid>
+                </Grid>
+                <Grid container spacing={1} sx={{mb: '2.5%'}}>
+                  <Grid item xs={1} sm={1} md={1}>
+                      <LocationOnIcon fontSize="small" sx={{color: '#00A859'}} />
+                  </Grid>
+                  <Grid item xs={11} sm={11} md={11}>
+                      <Typography variant="caption" sx={{fontSize: '18px', lineHeight: '21px'}}>{items.location}</Typography>
+                  </Grid>
+                </Grid>
                 <Typography variant="body2" color="text.secondary">
                   {items.description}
                 </Typography>

@@ -33,7 +33,7 @@ export default [
         id: 3,
         face: true,
         tag: 'NXR LAB',
-        title: 'NEXT GENERATION ROBOTICS & AI LAB (NXR)',
+        title: 'Next Generation Robotics Lab (NXR)',
         body: `We design the "Robotics & Artificial intelligence Lab 
         ( NxR )" otherwise known as AICRA Certified Robotics Lab Center. 
         The concept established with the motto of "Creating an eco-system where 
@@ -64,8 +64,7 @@ export default [
         youth and all the technical aspirants by offering a robust 
         platform to showcase your ideas and get recognised. Participants 
         are supposed to compete with their project, concepts and innovative 
-        ideas. All the Futuristic, creative, innovative, sustainable 
-        projects/concepts are welcome. `,
+        ideas.`,
         img: RoboRace,
         link: '/enterpreneurship'
     },

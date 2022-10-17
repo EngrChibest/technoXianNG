@@ -1,5 +1,6 @@
 import { Button, Container, Grid } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Image from "../../elements/Image";
 
@@ -14,23 +15,26 @@ export default function Partners (){
     return (
         <Container maxWidth='false' sx={{backgroundColor: '#F4F4F4'}}>
             <div className="container-sm">
-                <Grid container spacing={6} sx={{pb: '5%', px: 'auto',display: 'flex', justifyContent: 'center'}}>
-                    <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
-              <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Lets Build Robots Together
-              </h1>
+              <Grid container spacing={6} sx={{pb: '5%', px: 'auto',display: 'flex', justifyContent: 'center'}}>
+              <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
+              <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+                Join Our Community Today.
+              </h2>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                7000+ Teams, 60+ Countries Preparing To Challenge In 10 Categories
+                USD 608,294 award money alongwith other benefits of IRC secured for year 2022  
+                TechnoXian competitions' winners
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
+                    <Link to='/register'>
                     <HeroButton
                       variant="contained"
                     >
                       Get Started
                     </HeroButton>
+                    </Link>
                   </Grid>
                   </Grid>
                   </div>

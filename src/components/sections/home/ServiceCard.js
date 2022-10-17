@@ -51,12 +51,12 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
             {body}
             </p>
             <div className="reveal-from-bottom" data-reveal-delay="600">
-                <a href={link} target='_blank' rel="noopener noreferrer">
+                <Link to={link}>
                     <LearnLink variant="text">
                         Learn More
                         <ChevronRightIcon fontSize="small"/>
                     </LearnLink>
-                </a>
+                </Link>
             </div>
         </Grid>
         <Grid item xs={12} sm={6} md={6}>
