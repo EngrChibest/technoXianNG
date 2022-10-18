@@ -2681,6 +2681,11 @@ textarea.form-input {
     aspect-ratio: 16 / 9;
     width: 100%;
   }
+
+  .MuiGrid-direction-xs-row-reverse {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
 }
 
 .sub-title {
@@ -2695,6 +2700,26 @@ textarea.form-input {
   font-size: 18px;
   font-weight: 500;
   color: #000;
+}
+
+.services-img {
+  width: 500px;
+  height: 450px;
+  border-radius: 50px;
+  object-fit: cover;
+  z-index: 9;
+  position: absolute;
+}
+
+.bodered {
+  position: absolute;
+  top: 7%;
+  z-index: 0;
+  width: 500px;
+  height: 450px;
+  border-radius: 50px;
+  background-image: url('../src/assets/images/bodered.svg');
+  transform: rotate(10deg);
 }
 
 
