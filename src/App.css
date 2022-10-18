@@ -2722,6 +2722,19 @@ textarea.form-input {
   transform: rotate(10deg);
 }
 
+@media screen and (max-width: 640px) {
+  .bodered {
+    position: static;
+    top: 0;
+    width: 90%;
+  }
+
+  .services-img {
+    width: 90%;
+    position: absolute;
+  }
+}
+
 
 
 /*--------------------------------------------------------------

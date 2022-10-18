@@ -10,7 +10,7 @@ export default function Beneficts (){
             <Grid container spacing={5} sx={{my:'4%'}}>
                { BenefictsData.map(items => (
                     <Grid item xs={12} sm={4} md={4}>
-                        <Card className="benefict-card" style={{height: '230px'}}>
+                        <Card className="benefict-card" style={{height: '250px'}}>
                             {items.icon}
                             <Typography variant="subtitle1" fontWeight={700} color="text.secondary">
                                 {items.title}
