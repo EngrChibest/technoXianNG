@@ -50,6 +50,7 @@ const Hero = ({
     <section
       {...props}
       className={outerClasses}
+      style={{backgroundColor: '#F4F4F4', marginBottom: '5%'}}
     >
       <div className="container-sm">
         <div className={innerClasses}>

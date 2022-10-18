@@ -103,13 +103,13 @@ const Footer = ({
                 <Grid item xs={12} sm={8} md={8}>
                   <Grid container spacing={5}>
                     <Grid item xs={12} sm={4} md={4}>
-                      <p><a style={{color: '#727272'}} href='https://goo.gl/maps/qZ7YDAjC2UTa5SZa7' target='_blank'>Office address: Anibaba street, Owode-onirin, Lagos.</a></p>
+                      <p><a style={{color: '#727272'}} href='https://goo.gl/maps/GBFMVqU6aRVPsMNe9' target='_blank'>Office address: Abuja, Nigeria</a></p>
                     </Grid>
                     <Grid item xs={12} sm={4} md={4}>
-                      <p><a style={{color: '#727272'}} href='mailto:teamhashtagng@gmail.com'>teamhashtagng@gmail.com</a> <br/> <a style={{color: '#727272'}} href='mailto:hello@hashtagng.com'>hello@hashtagng.com</a></p>
+                      <p><a style={{color: '#727272'}} href='mailto:info@technoxiannigeria.ng'>info@technoxiannigeria.ng</a></p>
                     </Grid>
                     <Grid item xs={12} sm={4} md={4}>
-                      <p ><a style={{color: '#727272'}} href='tel:09129403029'>0912 940 3029</a></p>
+                      <p ><a style={{color: '#727272'}} href='tel:09160605054'>0916 060 5054</a><br/><a style={{color: '#727272'}} href='tel:09156444478'>0915 644 4478</a></p>
                     </Grid>
                   </Grid>
                 </Grid>

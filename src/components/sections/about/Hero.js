@@ -63,7 +63,13 @@ const Hero = ({
                 About Us
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                TechnoXian is a global technology education platform
+                headquartered in New Delhi, India with operations across
+                Nigeria with curricula for upper primary, secondary, tertiary
+                education and professional certification in Robotics, IoT,
+                Embedded Systems, Virtual Reality, Augmented Reality,
+                Artificial Intelligence, Automation, 3D printing, UAV, Machine
+                Learning, Cyber Security, Data Science.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>

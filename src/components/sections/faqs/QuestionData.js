@@ -1,40 +1,105 @@
+import { Typography } from "@mui/material";
+import React from "react";
+import { Link } from "react-router-dom";
+
 export default [
     {
         id: 1,
         panelNo: 'panel1',
-        title: 'Do you provide customer support?',
-        description: `Make a decision on communication methods. Decide how customers can contact the company. 
-        Utilize popular methods, including phone and email, to allow customers an opportunity to contact the 
-        company as soon as questions or concerns arise. Staff appropriately to ensure customer needs get 
-        addressed within a reasonable time frame.`
+        title: 'Who can apply to be a part of TechnoXian?',
+        description: `At TechnoXian Nigeria, we have something or everyone. 
+        From Parents, to Schools, Individuals, Institutions and Professionals. 
+        We have a well developed curricula that caters to Primary, Secondary, 
+        Tertiary and Professionals. 
+        
+        We also set up fully equipped robotic labs 
+        for schools, communities and other interested parties.`
     },
     {
         id: 2,
         panelNo: 'panel2',
-        title: 'How can we make our customer experience more unique and not just seamless?',
-        description: `A seamless customer experience is important as it’s the most effective way 
-        to keep customers happy and loyal to your business. For instance, 51% of customers are 
-        more likely to stay loyal to businesses that offer timely personalised suggestions and 
-        updates as part of their customer experience. `
+        title: 'What is the minimum and maximum age of participation?',
+        description: `The minimum age requirements would be the age of kids 
+        in upper primary school, while there is no maximum age for our learners 
+        as we have a package for everyone.`
     },
     {
         id: 3,
         panelNo: 'panel3',
-        title: 'What is the best way to measure the impact of CX?',
-        description: `Unfortunately, switching from NPS to Customer Effort Score (CES) won’t help. 
-        Almost none of the CX leaders we interviewed used CES as a relationship metric. And that’s appropriate. 
-
-        CES was designed to be a transactional metric. The founders at CEB never intended for it 
-        to be used to measure a relationship. Yet, the excitement around effortless experiences 
-        leads many programs to try to force CES into that role.`
+        title: `What if I don't belong to a school team, how do I participate as a Roboclub member?`,
+        description: `RoboClub is open to everyone regardless of your affiliation to a school. 
+        
+        A RoboClub team can be made up of friends in a neighborhood, estate, religious gathering, 
+        or a subset of an institution. 
+        
+        As long as a group is up to ten persons that are  either all in Primary, Secondary or 
+        Tertiary institution, you can signup as a RoboClub team.`
     },
     {
         id: 4,
         panelNo: 'panel4',
-        title: 'How would you define good customer service?',
-        description: `What is good customer service? Good customer service means consistently meeting 
-        customers' expectations. Great customer service is quick, easy, personalized, and empathetic. 
-        Companies that deliver excellent customer service take the time needed to understand the needs 
-        of their unique customer base. `
+        title: 'Is there a membership payment? ',
+        description: 
+            <Typography>Yes there are certain membership payments you need to be aware of.
+            <Link top='/home-roboclub'><span style={{color: '#2E2F6E'}}>click here</span></Link>
+            RoboClub has a monthly or termly fee. Also for those subscribing to our Zero Inception 
+            Lab Model, there is a membership fee.</Typography>
+    },
+    {
+        id: 5,
+        panelNo: 'panel5',
+        title: 'What does it take to set up a technoxian lab in my school',
+        description: <Typography>Setting up a Lab is a simple and straightforward process. 
+        First determine which of the models suit your needs, then you reach 
+        out to us and we take it up from there.
+        <br/><b/>
+        More information on the various models 
+         <Link top='/nxr-lab'><span style={{color: '#2E2F6E'}}>click here</span></Link></Typography>
+    },
+    {
+        id: 6,
+        panelNo: 'panel6',
+        title: ' How long does it take to complete TechnoXian courses?',
+        description: `Yes there are certain membership payments you need to be aware of.
+        RoboClub has a monthly or termly fee. Also for those subscribing to our Zero Inception Lab Model, there is a membership fee. `
+    },
+    {
+        id: 7,
+        panelNo: 'panel7',
+        title: 'When I take the course, must I join the Roboclub? ',
+        description: <Typography>We have various courses with their individual timelines. 
+        <b/><b/>
+        Certificate Level course like <strong>A Levels, O Levels and B Levels</strong>
+        <b/><b/>
+        courses take a year to complete and acquire the required certifications. </Typography>
+    },
+    {
+        id: 8,
+        panelNo: 'panel8',
+        title: 'What is the minimum number of persons a team should have?',
+        description: `A team can not go below 10 person. You can have more than 10 
+        people in a team but nothing lesser. `
+    },
+    {
+        id: 9,
+        panelNo: 'panel9',
+        title: 'How Can I volunteer for TechnoXian?',
+        description: <Typography>We are always excited to have volunteers working with us. 
+            <br/><br/>
+            You can volunteer to use your skills in the largest Robotics Competition In Africa. 
+            <Link top='/volunteer'><span style={{color: '#2E2F6E'}}>click here</span></Link>
+            to see our volunteer needs
+        </Typography>
+    },
+    {
+        id: 10,
+        panelNo: 'panel10',
+        title: 'What is the purpose of TX Roboclub?',
+        description: <Typography>TX RoboClub offers you to engage students within your institute campus 
+            and giving them opportunity to learn and showcase their talent at International Platform.
+            <br/><br/>
+            Building a robot is about more than just putting pieces together!Explore and analyze the world 
+            around you as you understand the science behind creating and programming a robot.
+        </Typography>
     },
 ]

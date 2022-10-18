@@ -13,11 +13,11 @@ export default function AccordionQuestion({title, description, panelNo, expanded
           expandIcon={<ExpandMoreIcon />}
           aria-controls= {`${panelNo}a-content`}
           id={`${panelNo}a-header`}
-          sx={{paddingLeft: '3%', backgroundColor: '#E5E7EC',}}
+          sx={{paddingLeft: '3%', backgroundColor: '#FAFAFA'}}
         >
           <Typography sx={{color: '#00A859', fontWeight: 700}}>{title}</Typography>
         </AccordionSummary>
-        <AccordionDetails sx={{backgroundColor: '#E5E7EC', p: 4}}>
+        <AccordionDetails sx={{backgroundColor: '#EDEDED', p: 4}}>
           <Typography>
             {description}
           </Typography>

@@ -2691,6 +2691,12 @@ textarea.form-input {
   margin: 0 auto;
 }
 
+#contact-info-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
 
 
 /*--------------------------------------------------------------

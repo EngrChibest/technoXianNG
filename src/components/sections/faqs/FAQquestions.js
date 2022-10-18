@@ -44,7 +44,7 @@ export default function FAQquestions (){
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} sx={{paddingTop: '1%', paddingBottom: '3%'}}>
                         <center>
-                        <Link to="/contact-us">
+                        <Link to="/contact">
                             <PrimaryButton bgColor={'#00B9BC'} text={'  Contact Us  '}/>
                         </Link>
                         </center>
