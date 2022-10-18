@@ -15,12 +15,14 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
     return(
         <React.Fragment>
         { face === true ? 
-            <Grid container spacing={5} sx={{my:'15%'}}>
+            <Grid container spacing={5} sx={{my:'25%', position: 'relative'}}>
             <Grid item xs={12} sm={6} md={6}>
                 <Image
                 src={image}
                 alt="Hero" 
+                className='services-img'
                 />
+                <div className="bodered"></div>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
                 <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>
@@ -41,7 +43,7 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
             </Grid>
         </Grid>
         :
-        <Grid container spacing={5} sx={{my:'10%'}}>
+        <Grid container spacing={5} sx={{my:'10%'}} className="MuiGrid-direction-xs-row-reverse">
         <Grid item xs={12} sm={6} md={6}>
             <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>
             <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
@@ -59,11 +61,13 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
                 </Link>
             </div>
         </Grid>
-        <Grid item xs={12} sm={6} md={6}>
+        <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
             <Image
                 src={image}
                 alt="Hero" 
-                />
+                className='services-img'
+            />
+            <div className="bodered"></div>
         </Grid>
         </Grid>
         }

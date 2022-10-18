@@ -7,6 +7,7 @@ import Image from '../../elements/Image';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import styled from 'styled-components';
 import { textAlign } from '@mui/system';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types
@@ -60,19 +61,23 @@ const Hero = ({
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Home Robotics Traning Session.
+                Corporate RoboClub
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                TechnoXian is the World’s Largest Robotics Championship event series supported and recognized by various 
+                Governments across the world including Ministry of Electronics & IT (Meity), Department of Science & 
+                Technology (DST), Government of India and All India Council for Robotics & Automation (AICRA).
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
+                  <Link to='/register'>
                     <HeroButton
                       variant="contained"
                     >
                       Get Started
                     </HeroButton>
+                  </Link>
                   </Grid>
                 </Grid> 
               </div>

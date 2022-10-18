@@ -9,8 +9,8 @@ export default function Corporate () {
     return (
         <LayoutDefault>
           <Hero/>
-          <Beneficts/>
           <Services/>
+          <Beneficts/>
           <Payments/>
       </LayoutDefault>
     )

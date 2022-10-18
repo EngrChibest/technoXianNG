@@ -1,10 +1,9 @@
 import { Button, Card, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import Groups2Icon from '@mui/icons-material/Groups2';
-import { Link } from "react-router-dom";
 import Image from '../../elements/Image';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 
 const LearnLink = styled(Button)({
@@ -28,7 +27,15 @@ export default function Services (){
                     Lets Build Robots Together
                     </h3>
                     <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                        It accumulates students from all over the world together to be a part of 
+                        International level of technology competitions and commemorate with knowledge 
+                        and create an unmatched ambience and aura of learning with fun under the expert 
+                        guidance of research personnels who have proved their worth in the field of academics
+                        and industry.
+                        <br/> <br/>
+                        The TX RoboClub can be registered with minimum 10 (Ten) members. Any academic institution 
+                        including school, college, university, vocational institutions or corporate can register 
+                        online to form a club. The members of club would be availing lots of membership benefits.
                     </p>
                     <div className="reveal-from-bottom" data-reveal-delay="600">
                         <Link to='/home-robotics'>
