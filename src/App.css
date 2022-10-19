@@ -2709,11 +2709,12 @@ textarea.form-input {
   object-fit: cover;
   z-index: 9;
   position: absolute;
+  top: -10%;
 }
 
 .bodered {
   position: absolute;
-  top: 7%;
+  top: -8%;
   z-index: 0;
   width: 500px;
   height: 450px;

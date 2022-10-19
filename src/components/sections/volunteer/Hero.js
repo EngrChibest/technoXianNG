@@ -58,12 +58,16 @@ const Hero = ({
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>VOLUNTEER</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Home Robotics Traning Session.
+                TechnoXian Volunteer
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                Technoxian Volunteers make a difference in the lives of young people, 
+                helping them to discover the real-world value in science and technology. 
+                Technoxian Volunteers are people from all walks of life that come 
+                together to lead by example in the ways of science, technology, 
+                and citizenship. 
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
@@ -81,8 +85,8 @@ const Hero = ({
 
               <div className="hero-figure reveal-from-bottom illustration-element-01 hero-box" data-reveal-value="20px" data-reveal-delay="800">
                 <Image
-                  src={require('./../../../assets/images/nft.png')}
-                  alt="Hero" 
+                    src={require('./../../../assets/images/nft.png')}
+                    alt="Hero" 
                   />
                   {/* <div className='hero-box'></div> */}
             </div>

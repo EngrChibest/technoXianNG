@@ -56,7 +56,7 @@ const Hero = ({
       className={outerClasses}
     >
       <div className="container-sm">
-        <div className={innerClasses}>
+        <div className={innerClasses} style={{paddingBottom: '0'}}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN WRC</b></p>
