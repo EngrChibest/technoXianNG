@@ -60,7 +60,7 @@ const Hero = ({
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>NXR LAB</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                NEXT GENERATION ROBOTICS & AI LAB (NXR)
+                NEXT GENERATION ROBOTICS & AI LAB
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 We design the "Robotics & Artificial intelligence Lab ( NxR )" otherwise known as 

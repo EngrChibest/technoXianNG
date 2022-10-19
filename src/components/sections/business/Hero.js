@@ -58,12 +58,16 @@ const Hero = ({
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>ENTREPRENEURSHIP</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Home Robotics Traning Session.
+                Techno-Entrepreneurship Contest
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                “INNOVATIONS” aims at cultivating the skills amongst the 
+                youth and all the technical aspirants by offering a robust 
+                platform to showcase your ideas and get recognised. Participants 
+                are supposed to compete with their project, concepts and innovative 
+                ideas.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>

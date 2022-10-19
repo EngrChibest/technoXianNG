@@ -63,11 +63,10 @@ const Hero = ({
                 TechnoXian Volunteer
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Technoxian Volunteers make a difference in the lives of young people, 
-                helping them to discover the real-world value in science and technology. 
-                Technoxian Volunteers are people from all walks of life that come 
-                together to lead by example in the ways of science, technology, 
-                and citizenship. 
+                If you love to engage with youth activities, willing to send time, want to 
+                mentor a team, have technical or non-technical expertise, there is a volunteer 
+                role suited to your unique interest. Find information about Technoxian Volunteer 
+                programs, volunteer resources, opportunities, and more!
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>

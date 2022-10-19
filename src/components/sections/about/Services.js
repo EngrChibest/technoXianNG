@@ -24,12 +24,21 @@ export default function Services (){
                   />
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>
-                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>PROBLEM</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                    Lets Build Robots Together
+                        Problem Statement
                     </h3>
                     <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                        Young people graduating from high schools
+                        and tertiary institutions do not have the
+                        required skills to get jobs, create jobs or
+                        solve key societal problems that could result
+                        in wealth creation. According to World
+                        Economic Forum, the majority of jobs for
+                        African youth are geared towards
+                        technology, but Nigeria, even with our huge
+                        numbers lack the information, resources and
+                        platform to maximise this.
                     </p>
                     <div className="reveal-from-bottom" data-reveal-delay="600">
                         <Link to='/home-robotics'>

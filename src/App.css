@@ -2639,11 +2639,6 @@ textarea.form-input {
   }
 }
 
-.about-text-width {
-  width: 100%;
-  max-width: 50%;
-  margin: 2% auto;
-}
 
 .profile-image {
   width: 100%;
@@ -2662,6 +2657,7 @@ textarea.form-input {
   .swiper-container {
     width: 100%;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -2676,12 +2672,23 @@ textarea.form-input {
   width: 80%;
 }
 
+.about-text-width {
+  width: 100%;
+  max-width: 50%;
+  margin: 2% auto;
+}
+
 @media screen and (max-width: 640px) {
   .video {
     aspect-ratio: 16 / 9;
     width: 100%;
   }
-
+  
+  .about-text-width {
+    width: 100%;
+    max-width: 100%;
+  }
+  
   .MuiGrid-direction-xs-row-reverse {
     display: flex !important;
     flex-direction: column-reverse !important;
@@ -2734,6 +2741,12 @@ textarea.form-input {
     width: 90%;
     position: absolute;
   }
+}
+
+
+.hero-subtitle {
+  color: #fff;
+  font-size: 20px;
 }
 
 

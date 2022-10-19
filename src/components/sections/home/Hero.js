@@ -104,9 +104,9 @@ const Hero = ({
                     </Link>
                   </Grid>
                   <Grid item xs={12} sm={6} md={4}>
-                    <HeroButton variant="outlined" onClick={handleOpen}>
+                    <HeroButton variant="outlined" endIcon={<PlayCircleIcon/>} onClick={handleOpen}>
                       Watch Video
-                      <PlayCircleIcon fontSize='small' className='Video-icon'/>
+                      
                     </HeroButton>
                   </Grid>
                 </Grid> 
