@@ -10,8 +10,8 @@ export default function NXRLab () {
     return (
         <LayoutDefault>
           <Hero/>
-          <Beneficts/>
           <Services/>
+          <Beneficts/>
           <Table/>
           <Payment/>
       </LayoutDefault>

@@ -58,12 +58,17 @@ const Hero = ({
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+              <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>NXR LAB</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Home Robotics Traning Session.
+                NEXT GENERATION ROBOTICS & AI LAB (NXR)
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
+                We design the "Robotics & Artificial intelligence Lab ( NxR )" otherwise known as 
+                AICRA Certified Robotics Lab Center. The concept established with the motto of 
+                "Creating an eco-system where learners become inspired by robotics & automation 
+                technology, imbibe technology and get exposure to international competitions. 
+                We have conquered short term instructional courses, and now we are ready to 
+                look beyond it.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>

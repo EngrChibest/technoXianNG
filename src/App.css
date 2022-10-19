@@ -412,7 +412,7 @@ ol {
 }
 
 li:not(:last-child) {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 li > ul,

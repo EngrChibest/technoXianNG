@@ -159,8 +159,8 @@ const Header = ({
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/home-roboclub" style={{color: 'black'}}>Home Robotics Club</Link>
-                            <Link to="/robotics-club" style={{color: 'black'}}> School Robotics Club</Link>
+                            <Link to="/robotics-competition" style={{color: 'black'}}>Robotics Competition</Link>
+                            <Link to="/robotics-club" style={{color: 'black'}}>Robotics Club</Link>
                             <Link to="/nxr-lab" style={{color: 'black'}}>NXR Lab</Link>
                           </div>
                         </div>
@@ -189,7 +189,6 @@ const Header = ({
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/robotics-competition" style={{color: 'black'}}>Robotics Competition</Link>
                             <Link to="/corporate-club" style={{color: 'black'}}>Corporate Robo Club</Link>
                             <Link to="/enterpreneurship" style={{color: 'black'}}>Business Education</Link>
                             <Link to="/volunteer" style={{color: 'black'}}>Volunteer</Link>

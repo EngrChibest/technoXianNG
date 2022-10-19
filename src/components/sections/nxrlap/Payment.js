@@ -1,9 +1,5 @@
 import React from "react";
 import { Button, Card, Container, Grid, Typography } from "@mui/material";
-import Groups2Icon from '@mui/icons-material/Groups2';
-import { Link } from "react-router-dom";
-import Image from '../../elements/Image';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import styled from "styled-components";
 import { Box } from "@mui/system";
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
@@ -21,20 +17,20 @@ export default function Payment (){
         <div className="container-sm">
             <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
             <Grid container spacing={5} sx={{mb:'10%', mt: '3%'}}>
-                <Grid item xs={12} sm={3.6} md={3.6}>
+                <Grid item xs={12} sm={4} md={4}>
                     <Box className='pay-outline'>
-                        <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
+                        <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 1</Typography>
                         <Typography gutterBottom variant="body1" component="div">
-                            <span className="price-sign">$</span> 
-                            <span className="price">20</span> 
-                            <span className='price-month' >/Month</span>
+                            <span className="price-sign">₦</span> 
+                            <span className="price">7,740,000</span> 
+                            <span className='price-month' >/One-Time</span>
                         </Typography>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Secure your account</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>AMC & service charges</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -42,7 +38,7 @@ export default function Payment (){
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Up t0 2 credit cards</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Tution cost per student</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -50,7 +46,23 @@ export default function Payment (){
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Customer support</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>AICRA certification & exam fee per student</Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
+                            <Grid item xs={2} sm={2} md={2}>
+                                <CheckBoxIcon fontSize="small" />
+                            </Grid>
+                            <Grid item xs={10} sm={10} md={10}>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>TTT for 10 days </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
+                            <Grid item xs={2} sm={2} md={2}>
+                                <CheckBoxIcon fontSize="small" />
+                            </Grid>
+                            <Grid item xs={10} sm={10} md={10}>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Student Registration</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{marginTop: '2.5%'}}>
@@ -60,20 +72,20 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={3.6} md={3.6}>
+                <Grid item xs={12} sm={4} md={4}>
                 <Box className='pay-outline'>
-                        <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
+                        <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 2</Typography>
                         <Typography gutterBottom variant="body1" component="div">
-                            <span className="price-sign">$</span> 
-                            <span className="price">20</span> 
-                            <span className='price-month' >/Month</span>
+                            <span className="price-sign">₦</span> 
+                            <span className="price">6,740,000</span> 
+                            <span className='price-month' >/One-Time</span>
                         </Typography>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
                             <Grid item xs={2} sm={2} md={2}>
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Secure your account</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>AMC & service charges</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -81,7 +93,7 @@ export default function Payment (){
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Up t0 2 credit cards</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Tution cost per student</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -89,7 +101,23 @@ export default function Payment (){
                                 <CheckBoxIcon fontSize="small" />
                             </Grid>
                             <Grid item xs={10} sm={10} md={10}>
-                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Customer support</Typography>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>AICRA certification & exam fee per student </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
+                            <Grid item xs={2} sm={2} md={2}>
+                                <CheckBoxIcon fontSize="small" />
+                            </Grid>
+                            <Grid item xs={10} sm={10} md={10}>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>TTT for 10 days </Typography>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2} sx={{mb: '2.5%'}}>
+                            <Grid item xs={2} sm={2} md={2}>
+                                <CheckBoxIcon fontSize="small" />
+                            </Grid>
+                            <Grid item xs={10} sm={10} md={10}>
+                                <Typography variant="p" sx={{fontSize: '18px', lineHeight: '21px'}}>Student Registration</Typography>
                             </Grid>
                         </Grid>
                         <Grid container spacing={2} sx={{marginTop: '2.5%'}}>
