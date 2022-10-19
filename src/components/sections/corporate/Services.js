@@ -38,39 +38,13 @@ export default function Services (){
                         online to form a club. The members of club would be availing lots of membership benefits.
                     </p>
                     <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
+                        <a href="https://www.technoxian.com/corporate-roboclub/" target='_blank' rel="onopener noreferer">
                             <LearnLink variant="text">
                                 Learn More
                                 <ChevronRightIcon fontSize="small"/>
                             </LearnLink>
-                        </Link>
+                        </a>
                     </div>
-                </Grid>
-            </Grid>
-
-            <Grid container spacing={5} sx={{my:'13%'}}>
-                <Grid item xs={12} sm={6} md={6}>
-                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
-                    <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                    Lets Build Robots Together
-                    </h3>
-                    <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
-                    </p>
-                    <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
-                            <LearnLink variant="text">
-                                Learn More
-                                <ChevronRightIcon fontSize="small"/>
-                            </LearnLink>
-                        </Link>
-                    </div>
-                </Grid>
-                <Grid item xs={12} sm={6} md={6}>
-                    <Image
-                        src={require('./../../../assets/images/features-split-image-03.png')}
-                        alt="Hero" 
-                    />
                 </Grid>
             </Grid>
         </div>
