@@ -1,10 +1,9 @@
 import { Button, Card, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import Groups2Icon from '@mui/icons-material/Groups2';
-import { Link } from "react-router-dom";
 import Image from '../../elements/Image';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import docs from '../../../assets/docs/Roboclub.pdf'
 import styled from "styled-components";
+import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 
 const LearnLink = styled(Button)({
@@ -18,8 +17,8 @@ export default function Services (){
             <Grid container spacing={5} sx={{my:'10%'}}>
                 <Grid item xs={12} sm={6} md={6}>
                 <Image
-                  src={require('./../../../assets/images/features-split-image-03.png')}
-                  alt="Hero" 
+                    src={require('./../../../assets/images/features-split-image-03.png')}
+                    alt="Hero" 
                   />
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>
@@ -37,12 +36,11 @@ export default function Services (){
                         and answering their questions online 
                     </p>
                     <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
-                            <LearnLink variant="text">
-                                Learn More
-                                <ChevronRightIcon fontSize="small"/>
+                        <a href={docs} target='_blank' rel="noopener noreferer">
+                            <LearnLink variant="contained" endIcon={<CloudDownloadIcon sx={{fontSize: '16px'}}/>}>
+                                Learn More   
                             </LearnLink>
-                        </Link>
+                        </a>
                     </div>
                 </Grid>
             </Grid>
@@ -65,12 +63,11 @@ export default function Services (){
                         a tutor visit the school once a week to train on site
                     </p>
                     <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
-                            <LearnLink variant="text">
-                                Learn More
-                                <ChevronRightIcon fontSize="small"/>
+                        <a href={docs} target='_blank' rel="noopener noreferer">
+                            <LearnLink variant="contained" endIcon={<CloudDownloadIcon sx={{fontSize: '16px'}}/>}>
+                                Learn More   
                             </LearnLink>
-                        </Link>
+                        </a>
                     </div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>

@@ -8,7 +8,7 @@ import CheckBoxIcon from '@mui/icons-material/CheckBox';
 const LearnLink = styled(Button)({
     textTransform: 'capitalize',
     fontSize: '16px',
-    width: '90%',
+    width: '100%',
     margin : 'auto'
 })
 
