@@ -12,16 +12,16 @@ const LearnLink = styled(Button)({
 })
 
 
-export default function ServicesCard ({image, tag, title, body, link, face}){
+export default function ServicesCard ({image, tag, title, body, links, face, status}){
     return(
         <React.Fragment>
         { face === true ? 
             <Grid container spacing={5} sx={{my:'25%'}}>
             <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                 <Image
-                src={image}
-                alt="Hero" 
-                className='services-img'
+                    src={image}
+                    alt="Hero" 
+                    className='services-img'
                 />
                 <div className="bodered"></div>
             </Grid>
@@ -34,7 +34,7 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
                     {body} 
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <a href={link} target='_blank' rel="noopener noreferrer">
+                    <a href={links} target='_blank' rel="noopener noreferrer">
                         <LearnLink variant="text">
                             Learn More
                             <ChevronRightIcon fontSize="small"/>
@@ -59,13 +59,23 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
             {body}
             </p>
             <div className="reveal-from-bottom" data-reveal-delay="600">
-                <a href={link} target='_blank' rel="noopener noreferrer">
-                    <LearnLink variant="text">
+                { links &&  
+                <a href={links} target='_blank' rel="noopener noreferrer">
+                    <LearnLink variant="text" onClick={console.log(links)}>
                         Learn More
                         <ChevronRightIcon fontSize="small"/>
                     </LearnLink>
-                </a>
+                </a> }
+                { status &&
+                <Link to={status}>
+                    <LearnLink variant="text" >
+                        Learn More
+                        <ChevronRightIcon fontSize="small"/>
+                    </LearnLink>
+                </Link>
+                }
             </div>
+                {console.log(links)}
         </Grid>
         <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
             <Image

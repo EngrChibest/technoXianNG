@@ -18,7 +18,7 @@ export default function Services (){
             <Grid container spacing={5} sx={{my:'10%'}}>
                 <Grid item xs={12} sm={6} md={6}>
                 <Image
-                  src={require('./../../../assets/images/features-split-image-03.png')}
+                  src={require('./../../../assets/images/section/business/service-1.png')}
                   alt="Hero" 
                   />
                 </Grid>

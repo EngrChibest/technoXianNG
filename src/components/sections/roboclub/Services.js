@@ -36,13 +36,13 @@ export default function Services (){
                         Students watch live videos with tutors teaching various concepts 
                         and answering their questions online 
                     </p>
-                    <div className="reveal-from-bottom" data-reveal-delay="600">
+                    {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                         <a href={docs} target='_blank' rel="noopener noreferer">
                             <LearnLink variant="contained" endIcon={<CloudDownloadIcon sx={{fontSize: '16px'}}/>}>
                                 Learn More   
                             </LearnLink>
                         </a>
-                    </div>
+                    </div> */}
                 </Grid>
             </Grid>
 
@@ -63,13 +63,13 @@ export default function Services (){
                         This model has the added benefit of having 
                         a tutor visit the school once a week to train on site
                     </p>
-                    <div className="reveal-from-bottom" data-reveal-delay="600">
+                    {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                         <a href={docs} target='_blank' rel="noopener noreferer">
                             <LearnLink variant="contained" endIcon={<CloudDownloadIcon sx={{fontSize: '16px'}}/>}>
                                 Learn More   
                             </LearnLink>
                         </a>
-                    </div>
+                    </div> */}
                 </Grid>
                 <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                     <Image

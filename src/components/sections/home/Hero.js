@@ -62,7 +62,21 @@ const Hero = ({
     textTransform: 'capitalize',
     width: '100%',
     fontSize: '16px',
-    textAlign: 'center'
+    textAlign: 'center',
+    borderRadius: '8px',
+    // '&:hover': {
+    //   backgroundColor: '#00CA6B',
+    //   borderColor: '#00CA6B',
+    //   boxShadow: 'none',
+    // },
+    // '&:active': {
+    //   boxShadow: 'none',
+    //   backgroundColor: '#03C667',
+    //   borderColor: '#03C667',
+    // },
+    // '&:focus': {
+    //   boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
+    // },
   })
 
   const theme = useTheme();
@@ -82,23 +96,26 @@ const Hero = ({
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN NIGERIA</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Largest Robotics Program In Africa
+                Who We Are 
+                TechnoXian Nigeria
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 TechnoXian is a global technology education platform headquartered in New Delhi, 
                 India with operations across Nigeria with curricula for upper primary, secondary, 
                 tertiary education and professional certification in Robotics, IoT, Embedded Systems, 
-                Virtual Reality, Augmented Reality, Artificial Intelligence, Automation, 3D printing, 
-                UAV, Machine Learning, Cyber Security, Data Science.
+                Virtual Reality, Augmented Reality, Artificial Intelligence, Automation, 3D printing, UAV, 
+                Machine Learning, Cyber Security, Data Science.
+                We also represent Abira Automation in Nigeria; the largest producer and distributor of technology education equipment.
+                We help high schools, Polytechnics, Universities and organisations 
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
-                    <Link to='/register'>
-                      <HeroButton
+                    <Link to='/about'>
+                      <HeroButton 
                         variant="contained"
                       >
-                        Get Started
+                        Learn More
                       </HeroButton>
                     </Link>
                   </Grid>

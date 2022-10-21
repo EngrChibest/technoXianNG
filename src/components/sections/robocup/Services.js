@@ -13,8 +13,9 @@ export default function Services (){
                     tag={item.tag}
                     title={item.title}
                     body={item.body}
-                    link={item.link}
+                    links={item.links}
                     face={item.face}
+                    status={item.status}
                 />
             ))}
         </div>

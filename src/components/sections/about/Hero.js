@@ -71,17 +71,6 @@ const Hero = ({
                 Artificial Intelligence, Automation, 3D printing, UAV, Machine
                 Learning, Cyber Security, Data Science.
               </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <Grid container spacing={3}>
-                  <Grid item xs={12} sm={6} md={4}>
-                    <HeroButton
-                      variant="contained"
-                    >
-                      Get Started
-                    </HeroButton>
-                  </Grid>
-                </Grid> 
-              </div>
             </Grid>
             <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
 

@@ -43,7 +43,7 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
             </Grid>
         </Grid>
         :
-        <Grid container spacing={5} sx={{my:'10%'}} className="MuiGrid-direction-xs-row-reverse">
+        <Grid container spacing={5} sx={{my:'10%', mb: '25%'}} className="MuiGrid-direction-xs-row-reverse">
         <Grid item xs={12} sm={6} md={6}>
             <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>
             <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">

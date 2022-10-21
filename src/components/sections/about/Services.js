@@ -17,11 +17,13 @@ export default function Services (){
         <div className="container-sm">
             <h2 style={{textTransform: 'capitalize', marginTop: '16%', textAlign: 'center'}}>About Learning.</h2>
             <Grid container spacing={5} sx={{my:'10%'}}>
-                <Grid item xs={12} sm={6} md={6}>
-                <Image
-                  src={require('./../../../assets/images/features-split-image-03.png')}
-                  alt="Hero" 
-                  />
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+                    <Image
+                        src={require('./../../../assets/images/section/about/problem.png')}
+                        alt="Hero" 
+                        className='services-img'
+                    />
+                    <div className="bodered"></div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>PROBLEM</b></p>
@@ -40,40 +42,6 @@ export default function Services (){
                         numbers lack the information, resources and
                         platform to maximise this.
                     </p>
-                    <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
-                            <LearnLink variant="text">
-                                Learn More
-                                <ChevronRightIcon fontSize="small"/>
-                            </LearnLink>
-                        </Link>
-                    </div>
-                </Grid>
-            </Grid>
-
-            <Grid container spacing={5} sx={{my:'13%'}}>
-                <Grid item xs={12} sm={6} md={6}>
-                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
-                    <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                    Lets Build Robots Together
-                    </h3>
-                    <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam id at elementum, condimentum sed leo mattis sed. Lacus vel sed nec morbi gravida nunc. Nunc mauris non, sed morbi sed ipsum 
-                    </p>
-                    <div className="reveal-from-bottom" data-reveal-delay="600">
-                        <Link to='/home-robotics'>
-                            <LearnLink variant="text">
-                                Learn More
-                                <ChevronRightIcon fontSize="small"/>
-                            </LearnLink>
-                        </Link>
-                    </div>
-                </Grid>
-                <Grid item xs={12} sm={6} md={6}>
-                    <Image
-                        src={require('./../../../assets/images/features-split-image-03.png')}
-                        alt="Hero" 
-                    />
                 </Grid>
             </Grid>
         </div>

@@ -1,16 +1,14 @@
-import RoboRace from './../../../assets/images/features-split-image-03.png'
 import HomeRobo from './../../../assets/images/section/home/home-roboclub.jpg'
 import RoboClub from './../../../assets/images/section/home/robo-club.jpg'
 import NxRLab from './../../../assets/images/section/home/nxr-lab.jpg'
 import Corporate from './../../../assets/images/section/home/corporate.jpg'
-import Pitch from './../../../assets/images/section/home/pitch.jpg'
 
 export default [
     {
         id: 1,
         face: true,
-        tag: 'HOME SESSION',
-        title: 'Home Robotics Traning Session.',
+        tag: 'TX WRC',
+        title: 'TX World Robotics Championship',
         body: `Be the part of the community of like-minded robotics enthusiasts 
             who are curious, innovative and creative and wish to come together to 
             learn and share together. Building a robot is about more than just 
@@ -60,17 +58,5 @@ export default [
         img: Corporate,
         link: '/corporate-club'
     },
-    {
-        id: 5,
-        face: true,
-        tag: 'ENTREPRENEURSHIP',
-        title: 'Techno-Entrepreneurship Contest',
-        body: `“INNOVATIONS” aims at cultivating the skills amongst the 
-        youth and all the technical aspirants by offering a robust 
-        platform to showcase your ideas and get recognised. Participants 
-        are supposed to compete with their project, concepts and innovative 
-        ideas.`,
-        img: Pitch,
-        link: '/enterpreneurship'
-    },
+
 ]

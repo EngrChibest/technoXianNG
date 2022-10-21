@@ -22,8 +22,8 @@ const Home = () => {
       <Services/>
       <Partners/>
       <Table/>
-      <Newsletter/>
       <NewsUpdate/>
+      <Newsletter/>
       <Gallery/>
       <CTA/>
     </LayoutDefault>

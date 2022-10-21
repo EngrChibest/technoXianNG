@@ -6,6 +6,8 @@ import MazeSolver from './../../../assets/images/section/robocup/maze-solver.jpg
 import WaterRocket from './../../../assets/images/section/robocup/water-rocket.jpg'
 import RoboRC from './../../../assets/images/section/robocup/robo-rc.jpg'
 import Drone from './../../../assets/images/section/robocup/drone-racing.jpg'
+import Pitch from './../../../assets/images/section/robocup/pitch.jpg'
+import Innovation from './../../../assets/images/section/robocup/innovation.jpg'
 
 export default [
     {
@@ -18,7 +20,7 @@ export default [
         enough to participate in the soccer match. The team with 
         maximum goals after the match will be the winner.`,
         img: RoboSoccer,
-        link: 'https://www.technoxian.com/event/robosoccer/'
+        links: 'https://www.technoxian.com/event/robosoccer/'
     },
     {
         id: 2,
@@ -31,7 +33,7 @@ export default [
         robots ready to battle and are pitted against their competitor’s robots 
         in a one-one match`,
         img: RoboCombat,
-        link: 'https://www.technoxian.com/event/wrc-bots-combat/'
+        links: 'https://www.technoxian.com/event/wrc-bots-combat/'
     },
     {
         id: 3,
@@ -43,7 +45,7 @@ export default [
         robots on the given track and reach the finishing line in minimum time. The 
         robot must run on the given racetrack.`,
         img: RoboRace,
-        link: 'https://www.technoxian.com/event/robo-race/'
+        links: 'https://www.technoxian.com/event/robo-race/'
     },
     {
         id: 4,
@@ -56,7 +58,7 @@ export default [
         and is considered to have crossed the finishing line if any part of the robot 
         crosses it in a full lap of the course.`,
         img: LineFollower,
-        link: 'https://www.technoxian.com/event/fastest-line-follower/'
+        links: 'https://www.technoxian.com/event/fastest-line-follower/'
     },
     {
         id: 5,
@@ -68,7 +70,7 @@ export default [
         altitude above ground level. Team with maximum air time will be nominated as the 
         winner.`,
         img: WaterRocket,
-        link: 'https://www.technoxian.com/event/water-rocket/'
+        links: 'https://www.technoxian.com/event/water-rocket/'
     },
     {
         id: 6,
@@ -79,7 +81,7 @@ export default [
         negotiate a maze in the shortest possible time. The Robot which will start on the START 
         tile and reach the FINISH tile in the shortest time will be nominated as the winner.`,
         img: MazeSolver,
-        link: 'https://www.technoxian.com/event/maze-solver/'
+        links: 'https://www.technoxian.com/event/maze-solver/'
     },
     {
         id: 7,
@@ -92,7 +94,7 @@ export default [
          Plane in all the Rounds/Arena will be evaluated individually. Team Scoring the maximum points in the 
          final round will be nominated as the Winner of the competition.`,
         img: RoboRC,
-        link: 'https://www.technoxian.com/event/rc-craft/'
+        links: 'https://www.technoxian.com/event/rc-craft/'
     },
     {
         id: 8,
@@ -104,6 +106,34 @@ export default [
         The Quadcopter should be able to take off, land and can do simple and complex manoeuvres.
         The competition has 2 Rounds i.e. elimination round and final round. Performance of the Quadcopter in all the Rounds/Arena will be evaluated individually.`,
         img: Drone,
-        link: 'https://www.technoxian.com/event/drone/'
+        links: 'https://www.technoxian.com/event/drone/'
+    },
+    {
+        id: 9,
+        face: true,
+        tag: 'WRC INNOVATION CHALLENGE',
+        title: 'INNOVATION CHALLENGE',
+        body: `INNOVATIONS aims at cultivating the skills amongst the youth and all the technical aspirants by 
+            offering a robust platform to showcase your ideas and get recognised. Participants are supposed to 
+            compete with their project, concepts and innovative ideas. All the Futuristic, creative, innovative, 
+            sustainable projects/concepts are welcome. Projects which synchronises with the current needs of 
+            the industries and has the potential to disrupt the current course of technology will be Awarded. 
+            So, brace yourself and join in the League of INNOVATIONS.`,
+        img: Innovation,
+        links: 'https://www.technoxian.com/event/innovation-contest/'
+    },
+    {
+        id: 10,
+        face: false,
+        tag: 'ENTREPRENEURSHIP',
+        title: 'TECHNO-ENTREPRENEURSHIP CONTEST',
+        body: `“INNOVATIONS” aims at cultivating the skills amongst the 
+        youth and all the technical aspirants by offering a robust 
+        platform to showcase your ideas and get recognised. Participants 
+        are supposed to compete with their project, concepts and innovative 
+        ideas.`,
+        img: Pitch,
+        status: '/enterpreneurship',
+        // links: ''
     },
 ]

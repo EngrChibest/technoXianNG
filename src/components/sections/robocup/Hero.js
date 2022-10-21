@@ -61,7 +61,7 @@ const Hero = ({
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN WRC</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">              
-                World Robotics Championship                
+                TX World Robotics Championship                
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Be the part of the community of like-minded robotics enthusiasts who are curious, innovative and creative and wish to come together to learn and share 

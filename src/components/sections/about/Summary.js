@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Image from '../../elements/Image';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import styled from "styled-components";
-import { Button } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 
 const LearnLink = styled(Button)({
     textTransform: 'capitalize',
@@ -12,30 +12,32 @@ const LearnLink = styled(Button)({
 
 export default function Summary(){
     return (
+        <div style={{backgroundColor: '#F4F4F4', paddingTop: '5%', paddingBottom: '5%', marginTop: '3%'}}>
         <div className="container-sm">
-            <h2 style={{textTransform: 'capitalize', marginTop: '16%', textAlign: 'center'}}>We’re here because of you.</h2>
-            <p style={{textTransform: 'capitalize', marginTop: '6%', textAlign: 'center'}} className='about-text-width'>
-                TechnoXian is a global technology
-                education platform headquartered in New
-                Delhi, India with operations across Nigeria
-                with curricula for upper primary, <br/><br/>
-
-                secondary, tertiary education and
-                professional certification in Robotics, IoT,
-                Embedded Systems, Virtual Reality, <br/><br/>
-
-                Augmented Reality, Artificial Intelligence,
-                Automation, 3D printing, UAV, Machine
-                Learning, Cyber Security, Data Science.<br/><br/>
-                <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <Link to='/home-robotics'>
-                        <LearnLink variant="text">
-                            Learn More
-                            <ChevronRightIcon fontSize="small"/>
-                        </LearnLink>
-                    </Link>
-                </div>
-            </p>
+            <h2 style={{textTransform: 'capitalize', textAlign: 'center'}}>We’re here because of you.</h2>
+            <Grid container spacing={5} sx={{my:'13%'}} className="MuiGrid-direction-xs-row-reverse">
+                <Grid item xs={12} sm={6} md={6}>
+                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+                    <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+                        Lets Build Robots Together
+                    </h3>
+                    <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                        We also represent Abira Automation in Nigeria; the largest producer and distributor 
+                        of technology education equipment. We help high schools, Polytechnics, Universities 
+                        and organisations set up NXR laboratories for learning electrical, instrumentation, 
+                        robotic, mechanical, UAV, IoT, 3D printing etc at a very competitive price. 
+                    </p>
+                </Grid>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+                    <Image
+                        src={require('./../../../assets/images/section/about/summary.jpg')}
+                        alt="Hero" 
+                        className='services-img'
+                    />
+                    <div className="bodered"></div>
+                </Grid>
+            </Grid>
+        </div>
         </div>
     )
 }

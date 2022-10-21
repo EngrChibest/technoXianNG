@@ -159,9 +159,9 @@ const Header = ({
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/robotics-competition" style={{color: 'black'}}>Robotics Competition</Link>
-                            <Link to="/robotics-club" style={{color: 'black'}}>Robotics Club</Link>
-                            <Link to="/nxr-lab" style={{color: 'black'}}>NXR Lab</Link>
+                            <Link to="/robotics-competition" style={{color: 'black'}}>Technoxian WRC</Link>
+                            <Link to="/robotics-club" style={{color: 'black'}}>TX RoboClub</Link>
+                            <Link to="/nxr-lab" style={{color: 'black'}}>NXR Laboratory</Link>
                           </div>
                         </div>
                       </li>
@@ -189,7 +189,7 @@ const Header = ({
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/corporate-club" style={{color: 'black'}}>Corporate Robo Club</Link>
+                            <Link to="/corporate-club" style={{color: 'black'}}>Corporate RoboClub</Link>
                             <Link to="/enterpreneurship" style={{color: 'black'}}>Business Education</Link>
                             <Link to="/volunteer" style={{color: 'black'}}>Volunteer</Link>
                           </div>
