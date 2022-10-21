@@ -175,7 +175,7 @@ export default function ContactForm(){
               <center>
                 <TextField
                 id="standard-password-input"
-                label="Name"
+                label="Full Name"
                 type="text"
                 variant="standard"
                 name='fullName'

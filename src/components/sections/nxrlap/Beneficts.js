@@ -1,6 +1,5 @@
 import { Card, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import Groups2Icon from '@mui/icons-material/Groups2';
 import BenefictsData from "./BenefictsData";
 
 
@@ -19,8 +18,7 @@ export default function Beneficts (){
                                 {items.body}
                             </Typography>
                         </Card>
-                    </Grid>
-                
+                    </Grid>               
                 ))}
             </Grid>
         </div>

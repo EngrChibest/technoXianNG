@@ -57,7 +57,8 @@ const Hero = ({
           <Grid container spacing={5}>
             <Grid item xs={12} sm={12} md={12} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{textAlign: 'center', paddingTop: '6%'}}>
-                Frequently Asked Questions
+                Frequently Asked Questions <br/>
+                [FAQs]
               </h1>
               <hr className='hero-line'/>
             </Grid>

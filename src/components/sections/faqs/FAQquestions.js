@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import Image from "../../elements/Image";
 import PrimaryButton from "../../elements/PrimaryButton";
 import AccordionQuestion from "./Accordion";
 import { Link } from "react-router-dom";
