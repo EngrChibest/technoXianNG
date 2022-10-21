@@ -1,9 +1,5 @@
 import React from "react";
-import { Button, Card, Container, Grid, Typography } from "@mui/material";
-import Groups2Icon from '@mui/icons-material/Groups2';
-import { Link } from "react-router-dom";
-import Image from '../../elements/Image';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Button, Grid, Typography } from "@mui/material";
 import styled from "styled-components";
 import { Box } from "@mui/system";
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
@@ -12,7 +8,7 @@ import CheckBoxIcon from '@mui/icons-material/CheckBox';
 const LearnLink = styled(Button)({
     textTransform: 'capitalize',
     fontSize: '16px',
-    width: '90%',
+    width: '100%',
     margin : 'auto'
 })
 
@@ -21,7 +17,7 @@ export default function Payment (){
         <div className="container-sm">
             <h3 style={{textTransform: 'capitalize'}}>we’ve got a plan that <br/> is perfect for you.</h3>
             <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}}>
-                <Grid item xs={12} sm={3.6} md={3.6}>
+                <Grid item xs={12} sm={5} md={4}>
                     <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
                         <Typography gutterBottom variant="body1" component="div">
@@ -60,7 +56,7 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={3.6} md={3.6}>
+                <Grid item xs={12} sm={5} md={4}>
                 <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
                         <Typography gutterBottom variant="body1" component="div">

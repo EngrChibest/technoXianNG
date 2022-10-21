@@ -2,11 +2,41 @@ import React from 'react';
 import { Grid, Typography } from '@mui/material';
 import PrimaryButton from '../../elements/PrimaryButton';
 import { Link } from 'react-router-dom';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
+import RoleData from './RoleData';
 
 export default function Requirements (){
     return (
         <React.Fragment>
             <div className='container'>
+                <Grid container spacing={4} sx={{marginTop: '3%', position: 'relative'}} data-aos="fade-up">
+                    <Grid item xs={12} sm={12} md={12}>
+                        <Accordion>
+                            <AccordionSummary
+                            expandIcon={<ExpandMoreIcon />}
+                            aria-controls="panel2a-content"
+                            id="panel2a-header"
+                            sx={{backgroundColor: '#FAFAFA'}}
+                            >
+                            <Typography variant='body1' component='div'><PersonSearchIcon/> Available Volunteer Positions</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{backgroundColor: '#FAFAFA'}}>
+                                <ul style={{fontSize: '18px'}}>
+                                    { RoleData.map(items => (
+                                        <li>
+                                            <strong>{items.title}</strong>
+                                            {items.body}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </AccordionDetails>
+                        </Accordion>
+                    </Grid>
+                </Grid>
                 <Grid container spacing={4} sx={{marginTop: '3%', position: 'relative'}} data-aos="fade-up">
                     <Grid item xs={12} sm={12} md={12}>
                         <h3 className="hero-h1 mt-0 mb-16 reveal-from-bottom hero-h1-banner" data-reveal-delay="200" style={{color: '#2E2F6E'}} >

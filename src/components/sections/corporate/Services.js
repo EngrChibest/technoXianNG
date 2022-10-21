@@ -14,17 +14,20 @@ const LearnLink = styled(Button)({
 export default function Services (){
     return (
         <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'10%'}}>
-                <Grid item xs={12} sm={6} md={6}>
-                <Image
-                  src={require('./../../../assets/images/features-split-image-03.png')}
-                  alt="Hero" 
-                  />
+            <Grid container spacing={5} sx={{my:'20%'}}>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+                    <Image
+                        src={require('./../../../assets/images/section/coporate/service.png')}
+                        alt="Hero" 
+                        className='services-img'
+                        id='height'
+                    />
+                    <div className="bodered" id="height"></div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                    Lets Build Robots Together
+                        Lets Build Robots Together
                     </h3>
                     <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                         It accumulates students from all over the world together to be a part of 
@@ -32,7 +35,7 @@ export default function Services (){
                         and create an unmatched ambience and aura of learning with fun under the expert 
                         guidance of research personnels who have proved their worth in the field of academics
                         and industry.
-                        <br/> <br/>
+                        <br/>
                         The TX RoboClub can be registered with minimum 10 (Ten) members. Any academic institution 
                         including school, college, university, vocational institutions or corporate can register 
                         online to form a club. The members of club would be availing lots of membership benefits.

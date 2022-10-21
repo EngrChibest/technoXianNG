@@ -15,8 +15,8 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
     return(
         <React.Fragment>
         { face === true ? 
-            <Grid container spacing={5} sx={{my:'25%', position: 'relative'}}>
-            <Grid item xs={12} sm={6} md={6}>
+            <Grid container spacing={5} sx={{my:'25%'}}>
+            <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                 <Image
                 src={image}
                 alt="Hero" 
@@ -47,10 +47,10 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
         <Grid item xs={12} sm={6} md={6}>
             <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>
             <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-            {title}
+                {title}
             </h3>
             <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-            {body}
+                {body}
             </p>
             <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Link to={link}>
@@ -61,7 +61,7 @@ export default function ServicesCard ({image, tag, title, body, link, face}){
                 </Link>
             </div>
         </Grid>
-        <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+        <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} className='clap'>
             <Image
                 src={image}
                 alt="Hero" 

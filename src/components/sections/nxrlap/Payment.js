@@ -17,7 +17,7 @@ export default function Payment (){
         <div className="container-sm">
             <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
             <Grid container spacing={5} sx={{mb:'10%', mt: '3%'}}>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={5} md={4}>
                     <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 1</Typography>
                         <Typography gutterBottom variant="body1" component="div">
@@ -72,7 +72,7 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={5} md={4}>
                 <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 2</Typography>
                         <Typography gutterBottom variant="body1" component="div">

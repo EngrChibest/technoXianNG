@@ -85,12 +85,11 @@ const Hero = ({
                 Largest Robotics Program In Africa
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                TechnoXian is the World’s Largest Robotics Championship
-                event series supported and recognized by various
-                Governments across the world including Ministry of
-                Electronics & IT (Meity), Department of Science &
-                Technology (DST), Government of India and All India
-                Council for Robotics & Automation (AICRA). 
+                TechnoXian is a global technology education platform headquartered in New Delhi, 
+                India with operations across Nigeria with curricula for upper primary, secondary, 
+                tertiary education and professional certification in Robotics, IoT, Embedded Systems, 
+                Virtual Reality, Augmented Reality, Artificial Intelligence, Automation, 3D printing, 
+                UAV, Machine Learning, Cyber Security, Data Science.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
@@ -105,7 +104,7 @@ const Hero = ({
                   </Grid>
                   <Grid item xs={12} sm={6} md={4}>
                     <HeroButton variant="outlined" endIcon={<PlayCircleIcon/>} onClick={handleOpen}>
-                      Watch Video
+                      Play Video
                       
                     </HeroButton>
                   </Grid>
@@ -118,7 +117,7 @@ const Hero = ({
                 <Image
                   src={require('./../../../assets/images/section/home/hero-image.png')}
                   alt="Hero" 
-                  width='800px'
+                  className='hero-img'
                   />
                   {/* <div className='hero-box'></div> */}
             </div>

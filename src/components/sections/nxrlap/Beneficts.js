@@ -6,7 +6,7 @@ import BenefictsData from "./BenefictsData";
 
 export default function Beneficts (){
     return (
-        <div className="container-sm" style={{marginBottom:'10%'}}>
+        <div className="container-sm" style={{marginBottom:'10%', marginTop: '11%'}}>
             <Grid container spacing={5} sx={{my:'4%'}}>
                { BenefictsData.map(items => (
                     <Grid item xs={12} sm={4} md={4}>

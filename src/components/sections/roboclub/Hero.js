@@ -85,8 +85,9 @@ const Hero = ({
 
               <div className="hero-figure reveal-from-bottom illustration-element-01 hero-box" data-reveal-value="20px" data-reveal-delay="800">
                 <Image
-                  src={require('./../../../assets/images/nft.png')}
-                  alt="Hero" 
+                    src={require('./../../../assets/images/section/robo-club/robo-club-hero.png')}
+                    alt="Hero"
+                    className='hero-img' 
                   />
                   {/* <div className='hero-box'></div> */}
             </div>

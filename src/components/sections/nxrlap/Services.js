@@ -21,12 +21,15 @@ export default function Services (){
 
     return (
         <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'10%'}}>
-                <Grid item xs={12} sm={6} md={6}>
+            <Grid container spacing={5} sx={{my:'20%'}}>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                 <Image
-                  src={require('./../../../assets/images/features-split-image-03.png')}
-                  alt="Hero" 
+                    src={require('./../../../assets/images/section/nxrlab/option-1.png')}
+                    alt="Hero" 
+                    className='services-img'
+                    id='height'
                   />
+                  <div className="bodered" id='height'></div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>MEMBERSHIP</b></p>
@@ -69,7 +72,7 @@ export default function Services (){
                 </Grid>
             </Grid>
 
-            <Grid container spacing={5} sx={{my:'13%'}} className="MuiGrid-direction-xs-row-reverse">
+            <Grid container spacing={5} sx={{my:'13%', mb: '10%'}} className="MuiGrid-direction-xs-row-reverse">
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>INCEPTION</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
@@ -108,11 +111,14 @@ export default function Services (){
                         </a>
                     </div>
                 </Grid>
-                <Grid item xs={12} sm={6} md={6}>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                     <Image
-                        src={require('./../../../assets/images/features-split-image-03.png')}
+                        src={require('./../../../assets/images/section/nxrlab/option-2.png')}
                         alt="Hero" 
+                        className='services-img'
+                        id='height'
                     />
+                    <div className="bodered" id='height'></div>
                 </Grid>
             </Grid>
         </div>
