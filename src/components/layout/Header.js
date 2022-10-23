@@ -52,7 +52,7 @@ const Header = ({
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
-    nav.current.style.maxHeight = '500' + 'px';
+    nav.current.style.maxHeight = '800' + 'px';
     setIsactive(true);
   }
 
@@ -126,14 +126,15 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
-                      'list-reset text-xs',
+                      'list-reset text-xs', 'nav-margin',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                      <li>
-                        <Link to="/" onClick={closeMenu}>Home</Link>
+                    
+                      <li className=''>
+                        <Link to="/" onClick={closeMenu} className='nav-links-left nav-header'>Home</Link>
                       </li>
-                      <li>
-                        <Link to="/about" onClick={closeMenu}>About Us</Link>
+                      <li className=''>
+                        <Link to="/about" onClick={closeMenu} className='nav-links-left nav-header'>About Us</Link>
                       </li>
                       <li>
                         <div class="dropdown">
@@ -143,9 +144,10 @@ const Header = ({
                               textTransform: 'capitalize',
                               color: '#000'
                             }}
-                            className='dropbtn'
+                            className='dropbtn nav-header nav-links-left'
                           >
                             Our Services
+                            <span>
                             <ArrowDropDownIcon  
                               fontSize='medium'
                               sx={{
@@ -153,18 +155,21 @@ const Header = ({
                                 top: '5px',
                                 height: '20px',
                                 [theme.breakpoints.down('sm')]: {
-                                  display: 'none',
+                                  display: 'block',
                                 },
                               }}
                             />
+                            </span>
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/robotics-competition" style={{color: 'black'}}>Technoxian WRC</Link>
-                            <Link to="/robotics-club" style={{color: 'black'}}>TX RoboClub</Link>
-                            <Link to="/nxr-lab" style={{color: 'black'}}>NXR Laboratory</Link>
+                            <Link to="/robotics-competition" className='nav-color'>Technoxian WRC</Link>
+                            <Link to="/robotics-club" className='nav-color' style={{marginTop: '1%', marginBottom: '1%'}}>TX RoboClub</Link>
+                            <Link to="/nxr-lab" className='nav-color'>NXR Laboratory</Link>
                           </div>
                         </div>
                       </li>
+                    
+                    
                       <li>
                         <div class="dropdown">
                           <Link to=""
@@ -173,7 +178,7 @@ const Header = ({
                               textTransform: 'capitalize',
                               color: '#000'
                             }}
-                            className='dropbtn'
+                            className='dropbtn nav-links-left nav-header'
                           >
                             Community
                             <ArrowDropDownIcon  
@@ -183,15 +188,15 @@ const Header = ({
                                 top: '5px',
                                 height: '20px',
                                 [theme.breakpoints.down('sm')]: {
-                                  display: 'none',
+                                  display: 'block',
                                 },
                               }}
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/corporate-club" style={{color: 'black'}}>Corporate RoboClub</Link>
-                            <Link to="/enterpreneurship" style={{color: 'black'}}>Business Education</Link>
-                            <Link to="/volunteer" style={{color: 'black'}}>Volunteer</Link>
+                            <Link to="/corporate-club" className='nav-color'>Corporate RoboClub</Link>
+                            <Link to="/enterpreneurship" className='nav-color' style={{marginTop: '1%', marginBottom: '1%'}}>Business Education</Link>
+                            <Link to="/volunteer" className='nav-color'>Volunteer</Link>
                           </div>
                         </div>
                       </li>
@@ -203,7 +208,7 @@ const Header = ({
                               textTransform: 'capitalize',
                               color: '#000'
                             }}
-                            className='dropbtn'
+                            className='dropbtn nav-links-left nav-header'
                           >
                             Help
                             <ArrowDropDownIcon  
@@ -213,24 +218,25 @@ const Header = ({
                                 top: '5px',
                                 height: '20px',
                                 [theme.breakpoints.down('sm')]: {
-                                  display: 'none',
+                                  display: 'block',
                                 },
                               }}
                             />
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
-                            <Link to="/faqs" style={{color: 'black'}}>FAQs</Link>
-                            <Link to="/contact" style={{color: 'black'}}>Contact Us</Link>
+                            <Link to="/faqs" className='nav-color'>FAQs</Link>
+                            <Link to="/contact" className='nav-color' style={{marginTop: '1%'}}>Contact Us</Link>
                           </div>
                         </div>
                       </li>
+                    
                   </ul>
                   {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      <li>
-                        <Link to='/register'>
+                      <li style={{border: 'none'}}>
+                        <Link to='/register' className='btn-align'>
                           <Button 
                             variant="contained"
                             sx={{

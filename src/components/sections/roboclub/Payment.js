@@ -22,12 +22,12 @@ export default function Payment (){
             <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
             <h4 style={{textTransform: 'capitalize', marginTop: '5%'}}>For Individuals</h4>
             <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}}>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Virtual Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
-                            <span className="price">4,000</span> 
+                            <span className="price">3,000</span> 
                             <span className='price-month' >/Month</span>
                         </Typography>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -61,12 +61,12 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={6} md={4}>
                 <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Hybrid Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
-                            <span className="price">3,000</span> 
+                            <span className="price">4,000</span> 
                             <span className='price-month' >/Month</span>
                         </Typography>
                         <Grid container spacing={2} sx={{mb: '2.5%'}}>
@@ -105,9 +105,9 @@ export default function Payment (){
 
 
 
-            <h4 style={{textTransform: 'capitalize', marginTop: '5%'}}>For Schools</h4>
+            <h4 style={{textTransform: 'capitalize', marginTop: '10%'}}>For Schools</h4>
             <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}}>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={6} md={4}>
                     <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Virtual Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
@@ -146,7 +146,7 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={4} md={4}>
+                <Grid item xs={12} sm={6} md={4}>
                 <Box className='pay-outline'>
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Hybrid Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">

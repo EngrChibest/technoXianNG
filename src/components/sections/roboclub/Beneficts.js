@@ -10,8 +10,8 @@ export default function Beneficts (){
             <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>Why Choose Us</h3>
             <Grid container spacing={5} sx={{my:'4%'}}>
                { BenefictsData.map(items => (
-                <Grid item xs={12} sm={4} md={4}>
-                    <Card className="benefict-card" style={{height: '167px'}}>
+                <Grid item xs={12} sm={6} md={4}>
+                    <Card className="benefict-card about-height">
                         {items.icon}
                         <Typography variant="subtitle2" color="text.secondary">
                             {items.body}

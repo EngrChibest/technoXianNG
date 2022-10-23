@@ -17,10 +17,10 @@ export default function Requirements (){
                     <Grid item xs={12} sm={12} md={12}>
                         <Accordion>
                             <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
-                            sx={{backgroundColor: '#FAFAFA'}}
+                                expandIcon={<ExpandMoreIcon />}
+                                aria-controls="panel2a-content"
+                                id="panel2a-header"
+                                sx={{backgroundColor: '#FAFAFA'}}
                             >
                             <Typography variant='body1' component='div'><PersonSearchIcon/> Available Volunteer Positions</Typography>
                             </AccordionSummary>
@@ -58,7 +58,9 @@ export default function Requirements (){
 
                 <Grid container spacing={4} sx={{marginTop: '3%'}}>
                     <Grid item xs={12} sm={4} md={4}>
-                        <Typography variant="h5"  gutterBottom sx={{color: '#2E2F6E', fontWeight: '700'}}>Eligibility:</Typography>
+                        <h3 className="hero-h1 mt-0 mb-16 reveal-from-bottom hero-h1-banner" data-reveal-delay="200" style={{color: '#2E2F6E'}} >
+                            Eligibility:
+                        </h3>
                         <Typography variant="body2" color={'#000000'} sx={{fontWeight: '400'}} gutterBottom>Students (Undergraduate/ Post-Graduate)</Typography>
                         <Typography variant="body2" color={'#000000'} sx={{fontWeight: '400'}} gutterBottom>Teachers/Professors/ Corporate Professionals</Typography>
                     </Grid>

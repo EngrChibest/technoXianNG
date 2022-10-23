@@ -50,17 +50,18 @@ const Hero = ({
     <section
       {...props}
       className={outerClasses}
+      id='faqs-bg'
       style={{backgroundColor: '#F4F4F4', marginBottom: '5%'}}
     >
       <div className="container-sm">
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={12} md={12} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200" style={{textAlign: 'center', paddingTop: '6%'}}>
+              <h1 className="mt-0 mb-16 reveal-from-bottom contact-text" data-reveal-delay="200">
                 Frequently Asked Questions <br/>
                 [FAQs]
               </h1>
-              <hr className='hero-line'/>
+              {/* <hr className='hero-line'/> */}
             </Grid>
           </Grid>
         </div>

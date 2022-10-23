@@ -8,8 +8,8 @@ export default function Beneficts (){
         <div className="container-sm" style={{marginBottom:'10%'}}>
             <Grid container spacing={5} sx={{mb:'8%', mt: '10%'}}>
                { BenefictsData.map(items => (
-                    <Grid item xs={12} sm={4} md={4}>
-                        <Card className="benefict-card corporate-card">
+                    <Grid item xs={12} sm={6} md={4}>
+                        <Card className="benefict-card corporate-height">
                             {items.icon}
                             <Typography variant="subtitle1" fontWeight={700} color="text.secondary">
                                 {items.title}
