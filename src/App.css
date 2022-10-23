@@ -58,7 +58,7 @@
 /*--------------------------------------------------------------
 # Call to action
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @use "sass:math";
 /*--------------------------------------------------------------
 # Normalize
@@ -73,6 +73,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 article,
@@ -112,7 +113,7 @@ hr {
 }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 1em;
 }
 
@@ -141,7 +142,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 1em;
 }
 
@@ -197,7 +198,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -520,13 +521,13 @@ button,
 input,
 select,
 textarea {
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   clear: both;
   color: #151719;
@@ -689,7 +690,7 @@ pre .h3,
 pre .h4,
 pre .h5,
 pre .h6 {
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: 'Poppins', sans-serif;
 }
 
 pre, code, kbd, tt, var {
@@ -708,7 +709,7 @@ pre {
 }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.1px;
