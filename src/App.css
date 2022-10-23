@@ -3095,6 +3095,10 @@ textarea.form-input {
   padding-bottom: 12px;
 }
 
+.footer-top p {
+  margin: 12px 0;
+}
+
 .footer-bottom {
   padding-top: 12px;
 }
