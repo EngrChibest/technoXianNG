@@ -15,8 +15,7 @@ const LearnLink = styled(Button)({
 export default function Services (){
     return (
         <div className="container-sm">
-            <h2 style={{textTransform: 'capitalize', marginTop: '16%', textAlign: 'center'}}>About Learning.</h2>
-            <Grid container spacing={5} sx={{my:'10%'}}>
+            <Grid container spacing={5} sx={{mt:'16%', mb: '10%'}}>
                 <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                     <Image
                         src={require('./../../../assets/images/section/about/problem.png')}

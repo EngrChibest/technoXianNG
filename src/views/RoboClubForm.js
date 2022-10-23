@@ -10,7 +10,7 @@ export default function RoboClubForm () {
     return (
       <LayoutDefault>
       <div className="container-sm" >
-          <Grid container sx={{mt: '20%', mx: 'auto'}}>
+          <Grid container sx={{mt: '15%', mx: 'auto'}}>
             <Grid item xs={12} sm={5} md={5}>
               <Image
                 src={require('../../src/assets/images/section/form/roboclub.jpg')}
