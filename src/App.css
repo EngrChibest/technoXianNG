@@ -2340,7 +2340,7 @@ textarea.form-input {
   }
 
   .css-x27q3f {
-    display: inline;
+    display: inline-block !important;
   }
 }
 
