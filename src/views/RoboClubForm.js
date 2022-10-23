@@ -8,20 +8,22 @@ import { Link } from "react-router-dom";
 
 export default function RoboClubForm () {
     return (
-      <div>
-          {/* <Grid container>
-            <Grid item xs={12} sm={4} md={4}>
+      <LayoutDefault>
+      <div className="container-sm" >
+          <Grid container sx={{mt: '20%', mx: 'auto'}}>
+            <Grid item xs={12} sm={5} md={5}>
               <Image
-                src={require('../../src/assets/images/features-split-image-03.png')}
+                src={require('../../src/assets/images/section/form/roboclub.jpg')}
                 alt="Hero" 
-                style={{height: '100vh'}}
+                style={{height: '100vh', objectFit: 'cover'}}
               />
             </Grid>
-            <Grid item xs={12} sm={8} md={8}>
-                <Link to="/"><img src={ Logo } alt="" width='200' className="float-righ"/></Link>
+            <Grid item xs={12} sm={7} md={7}>
+                {/* <Link to="/"><img src={ Logo } alt="" width='200' className="float-righ"/></Link> */}
               <RoboForm/>
             </Grid>
-          </Grid> */}
+          </Grid>
       </div>
+      </LayoutDefault>
     )
 }

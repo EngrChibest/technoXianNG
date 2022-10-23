@@ -32,27 +32,8 @@ const BootstrapInput = styled(InputBase)(({ theme }) => ({
 
   export default function RoboForm() {
     return (
-      <Box
-        component="form"
-        noValidate
-        sx={{
-          display: 'grid',
-          gridTemplateColumns: { sm: '1fr 1fr' },
-          gap: 2,
-        }}
-      >
-        <FormControl variant="standard">
-          <InputLabel shrink htmlFor="bootstrap-input">
-            Bootstrap
-          </InputLabel>
-          <BootstrapInput defaultValue="react-bootstrap" id="bootstrap-input" />
-        </FormControl>
-        <FormControl variant="standard">
-          <InputLabel shrink htmlFor="bootstrap-input">
-            Bootstrap
-          </InputLabel>
-          <BootstrapInput defaultValue="react-bootstrap" id="bootstrap-input" />
-        </FormControl>
+      <Box>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScg_hv3-ff_Hd-MDESwpCNI6k32Tpf9arhfZyzfQSgQS3Zrmw/viewform?embedded=true" width="640" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </Box>
     );
   }

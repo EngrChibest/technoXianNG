@@ -2436,15 +2436,15 @@ textarea.form-input {
 }
 
 .about-height {
-  height: 200px;
+  height: 230px;
 }
 
 .corporate-height {
-  height: 300px;
+  height: 350px;
 }
 
 .nxr-height {
-  height: 300px;
+  height: 350px;
 }
 
 .price-height {
@@ -2467,7 +2467,7 @@ textarea.form-input {
   }
 
   .about-height {
-    height: 230px;
+    height: 250px;
   }
 
   .price-height {
@@ -2479,7 +2479,7 @@ textarea.form-input {
   }
 
   .nxr-height {
-    height: 370px;
+    height: 400px;
   }
 }
 
@@ -2525,11 +2525,11 @@ textarea.form-input {
   }
 
   .nxr-height {
-    height: 310px;
+    height: 320px;
   }
 
   .corporate-height {
-    height: 260px;
+    height: 290px;
   }
 }
 
