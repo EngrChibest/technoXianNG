@@ -3,7 +3,7 @@ import * as React from 'react';
 
 export default function Gallery() {
   return (
-    <div className="container-sm" style={{py: '10%', marginBottom: '13%', marginTop: '15%'}}>
+    <div className="container-sm" style={{py: '10%', marginBottom: '3%', marginTop: '15%'}}>
       <h2 className="partner-header">Gallery</h2>
       <div class="gallery">
         <img src={require("./../../../assets/images/section/about/gallery/g1.jpg")} />

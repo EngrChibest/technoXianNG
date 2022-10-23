@@ -107,7 +107,7 @@ const Footer = ({
                         <p><a style={{color: '#727272'}} href='https://goo.gl/maps/GBFMVqU6aRVPsMNe9' target='_blank'>Abuja, Nigeria</a></p>
                       </Grid>
                       <Grid item xs={12} sm={12} md={12}>
-                        <p><a style={{color: '#727272'}} href='mailto:info@technoxiannigeria.ng'>info@technoxiannigeria.ng</a></p>
+                        <p style={{width: 'auto'}} ><a style={{color: '#727272'}} href='mailto:info@technoxiannigeria.ng'>info@technoxian nigeria.ng</a></p>
                       </Grid>
                       <Grid item xs={12} sm={12} md={12}>
                         <p >

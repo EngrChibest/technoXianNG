@@ -93,7 +93,7 @@ const Header = ({
     <header
       {...props}
       className={classes}
-      style={{position: "fixed", width: '100%', zIndex: '99999'}}
+      style={{position: "fixed", width: '100%', zIndex: '99999', overflowY: 'auto'}}
     >
       <div className="container-nav">
         <div className={
