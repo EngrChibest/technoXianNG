@@ -25,7 +25,7 @@ const rows = [
   createData('Free Visitor Pass to all Competition', <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>),
   createData('Technical Support (Online)', <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>),
   createData('Membership and Competition Certificates from various Govt Depts.', <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>, <CheckCircleIcon sx={{color: '#00A859'}}/>),
-  createData('', <Link to='/home-roboclub'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/home-roboclub'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/robotics-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/corporate-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>),
+  createData('', <Link to='/robotics-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/robotics-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/robotics-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>, <Link to='/corporate-club'><PrimaryButton bgColor={'#00A859'} text={'Register'} /></Link>),
 ];
 
 export default function BasicTable() {

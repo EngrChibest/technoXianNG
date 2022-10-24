@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from '../views/Home'
 import About from '../views/About';
-import HomeRobo from '../views/HomeRobotics';
 import RoboClub from '../views/RoboClub';
 import RoboCup from '../views/RobotCompetition';
 import NXRLab from '../views/NXRLab';
@@ -25,7 +24,6 @@ const AppRoute = () => {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
-        <Route path="/home-roboclub" element={<HomeRobo />} />
         <Route path="/robotics-club" element={<RoboClub />} />
         <Route path="/robotics-competition" element={<RoboCup />} />
         <Route path="/nxr-lab" element={<NXRLab />} />
