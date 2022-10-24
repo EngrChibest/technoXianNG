@@ -98,8 +98,8 @@ export default function Requirements (){
                     </Grid>
 
                     <Grid item xs={12} sm={12} md={12} sx={{ paddingBottom: '5%'}}>
-                        <Link to="/job-application">
-                            <PrimaryButton text={'Apply Now'} bgColor={'#00B9BC'} />
+                        <Link to="/volunteer-form">
+                            <PrimaryButton text={'Apply Now'} bgColor={'#00A859'} />
                         </Link>
                     </Grid>
                 </Grid>

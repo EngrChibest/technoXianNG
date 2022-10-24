@@ -10,7 +10,7 @@ export default function NXRLabForm () {
           <Grid container sx={{mt: '15%', mx: 'auto'}} >
             <Grid item xs={12} sm={5} md={5}>
               <Image
-                src={require('../../src/assets/images/section/form/corporate.png')}
+                src={require('../../src/assets/images/section/form/nxr-lab.jpg')}
                 alt="Hero" 
                 style={{height: '90vh', objectFit: 'cover'}}
               />

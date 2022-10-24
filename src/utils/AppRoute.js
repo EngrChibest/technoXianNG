@@ -14,6 +14,7 @@ import FAQs from '../views/FAQs';
 import Contact from '../views/Contact';
 import Register from '../views/RoboClubForm';
 import Volunteer from '../views/Volunteer';
+import VolunteerForm from '../views/VolunteerForm';
 import NXRLabForm from '../views/NXRLabFom';
 import ScrollToTop from './ScrollToTop';
 
@@ -36,6 +37,7 @@ const AppRoute = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/nxr-lab-form" element={<NXRLabForm />} />
         <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/volunteer-form" element={<VolunteerForm />} />
       </Routes>
     </Router>
   );
