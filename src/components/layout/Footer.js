@@ -85,7 +85,7 @@ const Footer = ({
                     </Grid>
                     <Grid item md={4} sm={4} xs={12}>
                       <h5>Community</h5>
-                      <Link to='/home-roboclub'>
+                      <Link to='/robotics-competition'>
                         <p>Technoxian WRC</p>
                       </Link>
                       <Link to='/robotics-club'>

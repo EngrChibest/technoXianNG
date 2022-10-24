@@ -2656,6 +2656,12 @@ textarea.form-input {
   border-radius: 0px 10px 10px 0px;
 }
 
+.form-dimension {
+  width: 100%;
+  height: 90vh;
+}
+
+
 @media (max-width: 1030px) {
   .subform-width,
   .subform-width:hover,
@@ -2705,6 +2711,10 @@ textarea.form-input {
     width: 100%;
     max-width: 180%;
     border-radius: 10px;
+  }
+
+  .form-margin, .form-dimension {
+    margin-top: 12%;
   }
 }
 

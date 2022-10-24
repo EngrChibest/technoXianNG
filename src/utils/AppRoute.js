@@ -8,6 +8,7 @@ import RoboClub from '../views/RoboClub';
 import RoboCup from '../views/RobotCompetition';
 import NXRLab from '../views/NXRLab';
 import Corporate from '../views/Corporate';
+import CorporateForm from '../views/CorporateForm';
 import Enterpreneurship from '../views/Enterpreneurship';
 import FAQs from '../views/FAQs';
 import Contact from '../views/Contact';
@@ -28,6 +29,7 @@ const AppRoute = () => {
         <Route path="/robotics-competition" element={<RoboCup />} />
         <Route path="/nxr-lab" element={<NXRLab />} />
         <Route path="/corporate-club" element={<Corporate />} />
+        <Route path="/corporate-form" element={<CorporateForm />} />
         <Route path="/enterpreneurship" element={<Enterpreneurship />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/contact" element={<Contact />} />

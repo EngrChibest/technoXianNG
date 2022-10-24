@@ -71,7 +71,7 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
-                  <Link to='/register'>
+                  <Link to='/corporate-form'>
                     <HeroButton
                       variant="contained"
                     >
