@@ -7,7 +7,6 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { Link } from 'react-router-dom';
 
 export default function ContactForm(){
-    const url = 'https://newhashtagng2.herokuapp.com/contactus/create/'
     const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     const [open, setOpen] = React.useState(false);
     const [error, setError] = React.useState({});
@@ -65,21 +64,6 @@ export default function ContactForm(){
         const {name, value} = e.target
         setFormData({ ...formData, [name]: value});
       }
-
-        
-      function SendData(){
-        const requestOptions = {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            name: formData.fullName,
-            email: formData.email.toLowerCase(),
-            subject: formData.subject,
-            message: formData.message,
-          })
-        };
-        fetch(url, requestOptions).then(response => response.json()).then(data => console.log(data));
-      }
         
         function submitForm(event){
           event.preventDefault()
@@ -93,14 +77,13 @@ export default function ContactForm(){
 
           if (formData.fullName && formData.email && formData.subject && formData.message){
             if((formData.fullName.length <= 20 && isNaN(formData.fullName)) && regex.test(formData.email)){
-              SendData()
               emailjs.sendForm(
-                "service_xebv99g",
+                "service_rrnwta1",
                 // service_xebv99g
-                "template_brdmdz5",
+                "template_kdqz52f",
                 // template_brdmdz5
                 form.current,
-                "user_5DWzDq3qay2fpLzpX1XoN"
+                "gKdEXk3FIbAD9UjWJ"
                 // user_5DWzDq3qay2fpLzpX1XoN
               )
               .then(

@@ -2627,7 +2627,7 @@ textarea.form-input {
   background-color: inherit;
   height: 45.75px;
   padding-left: 3%;
-  color: #fff !important;
+  color: #000 !important;
   outline: 0;
 }
 

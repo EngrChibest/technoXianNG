@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Grid, Box, Collapse, IconButton, Alert } from '@mui/material'
 import PrimaryButton from '../../elements/PrimaryButton'
 import CloseIcon from '@mui/icons-material/Close';
+import emailjs from '@emailjs/browser';
 import { Verified } from '@mui/icons-material';
 
 function Newsletter (){
-  const url = 'https://newhashtagng2.herokuapp.com/jobposting/create_subscription/'
+  const form = useRef()
   const [open, setOpen] = React.useState(true);
   const [error, setError] = React.useState({});
   const [valid, setValid] = React.useState(false);
@@ -37,18 +38,6 @@ function Newsletter (){
     const {name, value} = e.target
     setFormData({ ...formData, [name]: value});
   }
-
-  function SendData(){
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: formData.fullName,
-        email: formData.email.toLowerCase(),
-      })
-    };
-    fetch(url, requestOptions).then(response => response.json()).then(data => console.log(data));
-  }
      
     function submitForm(event){
       event.preventDefault()
@@ -59,8 +48,24 @@ function Newsletter (){
 
       if (formData.fullName && formData.email){
         if((formData.fullName.length <= 20 && isNaN(formData.fullName)) && regex.test(formData.email)){
-          SendData()
-          setFormData({...formData, fullName: '', email: ''})
+          emailjs.sendForm(
+            "service_rrnwta1",
+            // service_xebv99g
+            "template_glcovcl",
+            // template_brdmdz5
+            form.current,
+            "gKdEXk3FIbAD9UjWJ"
+            // user_5DWzDq3qay2fpLzpX1XoN
+          )
+          .then(
+            (result) => {
+              console.log(result.text);
+            },
+            (error) => {
+              console.log(error.text);
+            }
+          );
+          setFormData({fullName: '', email: ''})
         }
       } 
   }
@@ -115,6 +120,7 @@ function Newsletter (){
                     display: 'flex',
                     justifyContent: 'center'
                 }}
+                ref={form}
                 className='form-width'
                 autoComplete="off"
                 onSubmit={submitForm}
