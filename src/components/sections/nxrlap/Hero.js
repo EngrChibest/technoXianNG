@@ -7,6 +7,7 @@ import Image from '../../elements/Image';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import styled from 'styled-components';
 import { textAlign } from '@mui/system';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types
@@ -73,11 +74,13 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
+                    <Link to='/nxr-lab-form'>
                     <HeroButton
                       variant="contained"
                     >
                       Get Started
                     </HeroButton>
+                    </Link>
                   </Grid>
                 </Grid> 
               </div>

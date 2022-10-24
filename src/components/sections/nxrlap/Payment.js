@@ -3,6 +3,7 @@ import { Button, Card, Container, Grid, Typography } from "@mui/material";
 import styled from "styled-components";
 import { Box } from "@mui/system";
 import CheckBoxIcon from '@mui/icons-material/CheckBox';
+import { Link } from "react-router-dom";
 
 
 const LearnLink = styled(Button)({
@@ -75,7 +76,9 @@ export default function Payment (){
                         </Grid>
                         <Grid container spacing={2} sx={{marginTop: '2.5%'}}>
                             <Grid item xs={12} sm={12} md={12}>
-                                <LearnLink variant="contained">Get Started</LearnLink>
+                                <Link to='/nxr-lab-form'>
+                                    <LearnLink variant="contained">Get Started</LearnLink>
+                                </Link>
                             </Grid>
                         </Grid>
                     </Box>
@@ -114,7 +117,9 @@ export default function Payment (){
                         </Grid>
                         <Grid container spacing={2} sx={{marginTop: '2.5%'}}>
                             <Grid item xs={12} sm={12} md={12} className='nxr-btn'>
-                                <LearnLink variant="contained">Get Started</LearnLink>
+                                <Link to='/nxr-lab-form'>
+                                    <LearnLink variant="contained">Get Started</LearnLink>
+                                </Link>
                             </Grid>
                         </Grid>
                     </Box>

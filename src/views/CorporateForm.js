@@ -1,10 +1,9 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import Image from "../components/elements/Image";
-import RoboForm from "../components/sections/roboform/RoboForm";
 import LayoutDefault from '../layouts/LayoutDefault'
 
-export default function RoboClubForm () {
+export default function CorporateForm () {
     return (
       <LayoutDefault>
       <div className="container-sm" >
