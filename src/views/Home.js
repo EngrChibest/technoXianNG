@@ -1,5 +1,4 @@
 import React from 'react';
-import { Divider } from '@mui/material';
 // import sections
 import Hero from '../components/sections/home/Hero';
 import Beneficts from '../components/sections/home/Beneficts'
@@ -12,6 +11,8 @@ import CTA from '../components/sections/home/CTA';
 import Gallery from '../components/sections/home/Gallery';
 
 import LayoutDefault from '../layouts/LayoutDefault'
+
+
 
 const Home = () => {
 

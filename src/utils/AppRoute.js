@@ -15,12 +15,15 @@ import Register from '../views/RoboClubForm';
 import Volunteer from '../views/Volunteer';
 import VolunteerForm from '../views/VolunteerForm';
 import NXRLabForm from '../views/NXRLabFom';
+import PopUp from '../views/PopUp';
+import PopUpModal from '../popup/PopUpModal';
 import ScrollToTop from './ScrollToTop';
 
 const AppRoute = () => {
   return (
     <Router>
       <ScrollToTop/>
+      <PopUpModal/>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
@@ -35,6 +38,7 @@ const AppRoute = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/nxr-lab-form" element={<NXRLabForm />} />
         <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/popup" element={<PopUp />} />
         <Route path="/volunteer-form" element={<VolunteerForm />} />
       </Routes>
     </Router>
