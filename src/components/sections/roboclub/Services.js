@@ -77,7 +77,7 @@ export default function Services (){
                         alt="Hero" 
                         className='services-img'
                     />
-                    <div className="bodered"></div>
+                    <div className="bodered bodered-bottom"></div>
                 </Grid>
             </Grid>
         </div>

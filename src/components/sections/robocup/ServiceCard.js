@@ -17,7 +17,7 @@ export default function ServicesCard ({image, tag, title, body, links, face, sta
         <React.Fragment>
         { face === true ? 
             <Grid container spacing={5} sx={{my:'25%'}} data-aos="fade-up">
-            <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+            <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} data-aos="fade-up">
                 <Image
                     src={image}
                     alt="Hero" 
@@ -62,7 +62,7 @@ export default function ServicesCard ({image, tag, title, body, links, face, sta
             <div className="reveal-from-bottom" data-reveal-delay="600">
                 { links &&  
                 <a href={links} target='_blank' rel="noopener noreferrer">
-                    <LearnLink variant="text" onClick={console.log(links)}>
+                    <LearnLink variant="text">
                         Learn More
                         <ChevronRightIcon fontSize="small"/>
                     </LearnLink>
@@ -76,15 +76,14 @@ export default function ServicesCard ({image, tag, title, body, links, face, sta
                 </Link>
                 }
             </div>
-                {console.log(links)}
         </Grid>
-        <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+        <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} data-aos="fade-up">
             <Image
                 src={image}
                 alt="Hero" 
                 className='services-img'
             />
-            <div className="bodered"></div>
+            <div className="bodered bodered-bottom"></div>
         </Grid>
         </Grid>
         }

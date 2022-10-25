@@ -34,7 +34,7 @@ export default function Summary(){
                         alt="Hero" 
                         className='services-img'
                     />
-                    <div className="bodered"></div>
+                    <div className="bodered bodered-bottom"></div>
                 </Grid>
             </Grid>
         </div>
