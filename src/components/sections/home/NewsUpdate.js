@@ -20,7 +20,7 @@ import NewsData from "./NewsData";
 
 export default function NewsUpdate() {
     return (
-      <div className='container-sm' style={{marginTop: '7%', marginBottom: '7%'}}>
+      <div className='container-sm' style={{marginTop: '7%', marginBottom: '7%'}} data-aos="fade-up">
         <h3 style={{textAlign: 'center'}}>News & Updates</h3>
         <p className="sub-title">Get the latest update of TechnoXian and most happening things in robotics and latest technologies</p>
         <Swiper
@@ -54,7 +54,7 @@ export default function NewsUpdate() {
         modules={[Autoplay, Pagination]}
         className="mySwiper swiper-container"
       >
-        <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}}>
+        <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}} data-aos="fade-up">
         {NewsData.map((items) => (
         <SwiperSlide>
           <div>

@@ -13,8 +13,8 @@ const LearnLink = styled(Button)({
 
 export default function Services (){
     return (
-        <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'20%'}}>
+        <div className="container-sm" data-aos="fade-up">
+            <Grid container spacing={5} sx={{my:'20%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                     <Image
                         src={require('./../../../assets/images/section/coporate/service.png')}

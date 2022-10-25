@@ -13,8 +13,8 @@ const LearnLink = styled(Button)({
 
 export default function Services (){
     return (
-        <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'10%'}}>
+        <div className="container-sm" data-aos="fade-up">
+            <Grid container spacing={5} sx={{my:'10%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                     <Image
                         src={require('./../../../assets/images/section/robo-club/robo-club-1.png')}
@@ -46,7 +46,7 @@ export default function Services (){
                 </Grid>
             </Grid>
 
-            <Grid container spacing={5} sx={{my:'30%'}} className='MuiGrid-direction-xs-row-reverse'>
+            <Grid container spacing={5} sx={{my:'30%'}} className='MuiGrid-direction-xs-row-reverse' data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>HYBRID</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
@@ -71,7 +71,7 @@ export default function Services (){
                         </a>
                     </div> */}
                 </Grid>
-                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} data-aos="fade-up">
                     <Image
                         src={require('./../../../assets/images/section/robo-club/robo-club-2.png')}
                         alt="Hero" 

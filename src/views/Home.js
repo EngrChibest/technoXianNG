@@ -11,16 +11,22 @@ import CTA from '../components/sections/home/CTA';
 import Gallery from '../components/sections/home/Gallery';
 
 import LayoutDefault from '../layouts/LayoutDefault'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
 const Home = () => {
+  React.useEffect(() => {
+    setTimeout(function() {
+    AOS.init({ easing: 'ease-out-back', duration: 3000, startEvent: 'DOMContentLoaded', once: false});
+  }, []); })
 
   return (
     <LayoutDefault>
-      <Hero className="illustration-section-01" />
+      <Hero className="illustration-section-01" data-aos="fade-up"/>
       <Beneficts/>
-      <Services/>
+      <Services />
       <Partners/>
       <Table/>
       <NewsUpdate/>

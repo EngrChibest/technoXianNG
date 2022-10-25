@@ -13,6 +13,7 @@
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.4.4",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "aos": "^2.3.4",
     "axios": "^0.26.1",
     "classnames": "^2.2.6",
     "dotenv": "^16.0.0",

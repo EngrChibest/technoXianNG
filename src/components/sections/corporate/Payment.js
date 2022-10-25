@@ -15,11 +15,11 @@ const LearnLink = styled(Button)({
 
 export default function Payment (){
     return (
-        <div className="container-sm">
+        <div className="container-sm" data-aos="fade-up">
             <h3 style={{textTransform: 'capitalize'}}>we’ve got a plan that <br/> is perfect for you.</h3>
-            <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}}>
+            <Grid container spacing={5} sx={{mb:'10%', mt: '5%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={4}>
-                    <Box className='pay-outline'>
+                    <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">$</span> 
@@ -59,8 +59,8 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                <Box className='pay-outline'>
+                <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
+                <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>BASIC</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">$</span> 

@@ -14,8 +14,8 @@ const LearnLink = styled(Button)({
 
 export default function Services (){
     return (
-        <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'10%'}}>
+        <div className="container-sm" data-aos="fade-up">
+            <Grid container spacing={5} sx={{my:'10%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6}>
                 <Image
                   src={require('./../../../assets/images/section/business/service-1.png')}
@@ -41,8 +41,8 @@ export default function Services (){
                 </Grid>
             </Grid>
 
-            <Grid container spacing={5} sx={{my:'13%'}}>
-                <Grid item xs={12} sm={6} md={6}>
+            <Grid container spacing={5} sx={{my:'13%'}} data-aos="fade-up">
+                <Grid item xs={12} sm={6} md={6} data-aos="fade-up">
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
                     Lets Build Robots Together

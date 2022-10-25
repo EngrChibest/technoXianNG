@@ -55,7 +55,7 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
+      <div className="container-sm" data-aos="fade-up">
         <div className={innerClasses}>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
@@ -83,7 +83,7 @@ const Hero = ({
                 </Grid> 
               </div>
             </Grid>
-            <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+            <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} data-aos="fade-up">
 
               <div className="hero-figure reveal-from-bottom illustration-element-01 hero-box" data-reveal-value="20px" data-reveal-delay="800">
                 <Image

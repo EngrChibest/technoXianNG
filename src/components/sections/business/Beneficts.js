@@ -5,8 +5,8 @@ import Groups2Icon from '@mui/icons-material/Groups2';
 
 export default function Beneficts (){
     return (
-        <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'4%'}}>
+        <div className="container-sm" data-aos="fade-up">
+            <Grid container spacing={5} sx={{my:'4%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={4} md={4}>
                     <Card className="benefict-card">
                         <Groups2Icon fontSize="large" sx={{ color: '#00A859'}}/>

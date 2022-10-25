@@ -31,8 +31,8 @@ const rows = [
 export default function BasicTable() {
   return (
     <div className='container-sm' style={{marginTop: '5%'}}>
-        <h3 className='partner-header'>Choose the freedom you need.</h3>
-    <TableContainer component={Paper} className='table-container'>
+        <h3 className='partner-header' data-aos="fade-up">Choose the freedom you need.</h3>
+    <TableContainer component={Paper} className='table-container' data-aos="fade-up">
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>

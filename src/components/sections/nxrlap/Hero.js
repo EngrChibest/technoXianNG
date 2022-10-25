@@ -55,9 +55,9 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container-sm">
+      <div className="container-sm" data-aos="fade-up">
         <div className={innerClasses}>
-          <Grid container spacing={5}>
+          <Grid container spacing={5} data-aos="fade-up">
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>NXR LAB</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
@@ -87,7 +87,7 @@ const Hero = ({
             </Grid>
             <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
 
-              <div className="hero-figure reveal-from-bottom illustration-element-01 hero-box" data-reveal-value="20px" data-reveal-delay="800">
+              <div className="hero-figure reveal-from-bottom illustration-element-01 hero-box" data-reveal-value="20px" data-reveal-delay="800" data-aos="fade-up">
                 <Image
                   src={require('./../../../assets/images/section/nxrlab/nxr-hero.png')}
                   alt="Hero" 

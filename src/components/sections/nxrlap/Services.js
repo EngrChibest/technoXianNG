@@ -20,8 +20,8 @@ export default function Services (){
     })
 
     return (
-        <div className="container-sm">
-            <Grid container spacing={5} sx={{my:'20%'}}>
+        <div className="container-sm" data-aos="fade-up">
+            <Grid container spacing={5} sx={{my:'20%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                 <Image
                     src={require('./../../../assets/images/section/nxrlab/option-1.png')}
@@ -111,7 +111,7 @@ export default function Services (){
                 </Grid>
             </Grid>
 
-            <Grid container spacing={5} sx={{my:'13%', mb: '10%'}} className="MuiGrid-direction-xs-row-reverse">
+            <Grid container spacing={5} sx={{my:'13%', mb: '10%'}} className="MuiGrid-direction-xs-row-reverse" data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6}>
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>INCEPTION</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">

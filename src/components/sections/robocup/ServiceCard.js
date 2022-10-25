@@ -16,7 +16,7 @@ export default function ServicesCard ({image, tag, title, body, links, face, sta
     return(
         <React.Fragment>
         { face === true ? 
-            <Grid container spacing={5} sx={{my:'25%'}}>
+            <Grid container spacing={5} sx={{my:'25%'}} data-aos="fade-up">
             <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
                 <Image
                     src={image}
@@ -49,6 +49,7 @@ export default function ServicesCard ({image, tag, title, body, links, face, sta
                 my:'10%',
             }} 
             className="MuiGrid-direction-xs-row-reverse"
+            data-aos="fade-up"
         >
         <Grid item xs={12} sm={6} md={6}>
             <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>{tag}</b></p>

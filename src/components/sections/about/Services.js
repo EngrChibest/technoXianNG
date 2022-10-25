@@ -14,9 +14,9 @@ const LearnLink = styled(Button)({
 
 export default function Services (){
     return (
-        <div className="container-sm">
+        <div className="container-sm" data-aos="fade-up">
             <Grid container spacing={5} sx={{mt:'16%', mb: '10%'}}>
-                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}}>
+                <Grid item xs={12} sm={6} md={6} sx={{position: 'relative'}} data-aos="fade-up">
                     <Image
                         src={require('./../../../assets/images/section/about/problem.png')}
                         alt="Hero" 
@@ -24,7 +24,7 @@ export default function Services (){
                     />
                     <div className="bodered"></div>
                 </Grid>
-                <Grid item xs={12} sm={6} md={6}>
+                <Grid item xs={12} sm={6} md={6} data-aos="fade-up">
                     <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>PROBLEM</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
                         Problem Statement

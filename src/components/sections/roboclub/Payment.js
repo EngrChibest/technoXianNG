@@ -18,12 +18,12 @@ const LearnLink = styled(Button)({
 
 export default function Payment (){
     return (
-        <div className="container-sm">
+        <div className="container-sm" data-aos="fade-up">
             <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
             <h4 style={{textTransform: 'capitalize', marginTop: '5%'}}>For Individuals</h4>
-            <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}}>
+            <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={4}>
-                    <Box className='pay-outline'>
+                    <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Virtual Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
@@ -62,7 +62,7 @@ export default function Payment (){
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                <Box className='pay-outline'>
+                <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Hybrid Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
@@ -105,10 +105,10 @@ export default function Payment (){
 
 
 
-            <h4 style={{textTransform: 'capitalize', marginTop: '10%'}}>For Schools</h4>
-            <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}}>
+            <h4 style={{textTransform: 'capitalize', marginTop: '10%'}} data-aos="fade-up">For Schools</h4>
+            <Grid container spacing={5} sx={{mb:'10%', mt: '1%'}} data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={4}>
-                    <Box className='pay-outline'>
+                    <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Virtual Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
@@ -147,7 +147,7 @@ export default function Payment (){
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                <Box className='pay-outline'>
+                <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700', textTransform: 'uppercase'}}>Hybrid Model</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 

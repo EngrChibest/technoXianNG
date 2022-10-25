@@ -56,13 +56,17 @@ export default function Requirements (){
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={4} sx={{marginTop: '3%'}}>
-                    <Grid item xs={12} sm={4} md={4}>
+                <Grid container spacing={4} sx={{marginTop: '3%'}} data-aos="fade-up">
+                    <Grid item xs={12} sm={12} md={12}>
                         <h3 className="hero-h1 mt-0 mb-16 reveal-from-bottom hero-h1-banner" data-reveal-delay="200" style={{color: '#2E2F6E'}} >
                             Eligibility:
                         </h3>
-                        <Typography variant="body2" color={'#000000'} sx={{fontWeight: '400'}} gutterBottom>Students (Undergraduate/ Post-Graduate)</Typography>
-                        <Typography variant="body2" color={'#000000'} sx={{fontWeight: '400'}} gutterBottom>Teachers/Professors/ Corporate Professionals</Typography>
+                    </Grid>
+                    <Grid item xs={12} sm={12} md={12} sx={{}}>
+                        <ul>
+                            <li>Students (Undergraduate/ Post-Graduate)</li>
+                            <li>Teachers/Professors/ Corporate Professionals</li>
+                        </ul>
                     </Grid>
                 </Grid>
                 <Grid container spacing={4} sx={{marginTop: '3%'}} data-aos="fade-up">

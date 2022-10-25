@@ -15,11 +15,11 @@ const LearnLink = styled(Button)({
 
 export default function Payment (){
     return (
-        <div className="container-sm">
-            <h3 style={{textTransform: 'capitalize', marginTop: '16%'}}>we’ve got a plan that <br/> is perfect for you.</h3>
-            <Grid container spacing={5} sx={{mb:'10%', mt: '3%'}}>
-                <Grid item xs={12} sm={6} md={4}>
-                    <Box className='pay-outline'>
+        <div className="container-sm" data-aos="fade-up">
+            <h3 style={{textTransform: 'capitalize', marginTop: '16%'}} data-aos="fade-up">we’ve got a plan that <br/> is perfect for you.</h3>
+            <Grid container spacing={5} sx={{mb:'10%', mt: '3%'}}> 
+                <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
+                    <Box className='pay-outline' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 1</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 
@@ -83,8 +83,8 @@ export default function Payment (){
                         </Grid>
                     </Box>
                 </Grid>
-                <Grid item xs={12} sm={6} md={4}>
-                <Box className='pay-outline price-height'>
+                <Grid item xs={12} sm={6} md={4} data-aos="fade-up">
+                <Box className='pay-outline price-height' data-aos="fade-up">
                         <Typography gutterBottom variant="body1" component="div" sx={{fontWeight: '700'}}>OPTION 2</Typography>
                         <Typography gutterBottom variant="body1" component="div">
                             <span className="price-sign">₦</span> 

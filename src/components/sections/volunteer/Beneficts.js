@@ -7,7 +7,7 @@ import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 
 export default function Beneficts (){
     return (
-        <div className="container-sm">
+        <div className="container-sm" data-aos="fade-up">
             <Grid container spacing={5} sx={{my:'4%'}}>
                 <Grid item xs={12} sm={6} md={4}>
                     <Card className="benefict-card about-height">
