@@ -16,7 +16,7 @@ import Volunteer from '../views/Volunteer';
 import VolunteerForm from '../views/VolunteerForm';
 import NXRLabForm from '../views/NXRLabFom';
 import PopUp from '../views/PopUp';
-import PopUpModal from '../popup/PopUpModal';
+import PopUpModal from '../components/sections/popup/PopUpModal';
 import ScrollToTop from './ScrollToTop';
 
 const AppRoute = () => {

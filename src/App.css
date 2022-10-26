@@ -2553,6 +2553,13 @@ textarea.form-input {
   }
 }
 
+@media(max-width: 600px) {
+  .hero-box::after{
+    bottom: 15%;
+    left: 10%;
+  }
+}
+
 
 @media(max-width: 300px){
   .hero-box::after{
