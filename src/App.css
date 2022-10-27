@@ -2358,9 +2358,9 @@ textarea.form-input {
     width: 100%;
   }
 
-  .dropdown-content {
+  /* .dropdown-content {
     display: block !important;
-  }
+  } */
 
   .dropdown-content {
     display: none;

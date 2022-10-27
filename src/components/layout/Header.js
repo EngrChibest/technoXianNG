@@ -89,6 +89,23 @@ const Header = ({
     setAnchorEl(null);
   };
 
+  const [navOne, setNavOne] = React.useState(false)
+  const [navTwo, setNavTwo] = React.useState(false)
+  const [navThree, setNavThree] = React.useState(false)
+
+  const handleNavOne = () => {
+    setNavOne(prevState => (prevState === false ? true : false))
+  }
+
+  const handleNavTwo = () => {
+    setNavTwo(prevState => (prevState === false ? true : false))
+  }
+
+  const handleNavThree = () => {
+    setNavThree(prevState => (prevState === false ? true : false))
+  }
+
+
   return (
     <header
       {...props}
@@ -137,7 +154,7 @@ const Header = ({
                         <Link to="/about" onClick={closeMenu} className='nav-links-left nav-header'>About Us</Link>
                       </li>
                       <li>
-                        <div class="dropdown">
+                        <div className={navOne === true ? 'dropdown' : ' '}>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -145,6 +162,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-header nav-links-left'
+                            onClick={handleNavOne}
                           >
                             Our Services
                             <span>
@@ -171,7 +189,7 @@ const Header = ({
                     
                     
                       <li>
-                        <div class="dropdown">
+                        <div className={navTwo === true ? 'dropdown' : ' '}>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -179,6 +197,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
+                            onClick={handleNavTwo}
                           >
                             Community
                             <ArrowDropDownIcon  
@@ -201,7 +220,7 @@ const Header = ({
                         </div>
                       </li>
                       <li>
-                      <div class="dropdown">
+                      <div className={navThree === true ? 'dropdown' : ' '}>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -209,6 +228,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
+                            onClick={handleNavThree}
                           >
                             Help
                             <ArrowDropDownIcon  
