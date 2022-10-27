@@ -7,7 +7,7 @@ export default [
         id: 1,
         panelNo: 'panel1',
         title: 'Who can apply to be a part of TechnoXian?',
-        description: `At TechnoXian Nigeria, we have something or everyone. 
+        description: `At TechnoXian Nigeria, we have something for everyone. 
         From Parents, to Schools, Individuals, Institutions and Professionals. 
         We have a well developed curricula that caters to Primary, Secondary, 
         Tertiary and Professionals. 

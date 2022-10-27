@@ -162,7 +162,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-header nav-links-left'
-                            onClick={handleNavOne}
+                            onMouseOver={handleNavOne}
                           >
                             Our Services
                             <span>
@@ -197,7 +197,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
-                            onClick={handleNavTwo}
+                            onMouseOver={handleNavTwo}
                           >
                             Community
                             <ArrowDropDownIcon  
@@ -228,7 +228,7 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
-                            onClick={handleNavThree}
+                            onMouseOver={handleNavThree}
                           >
                             Help
                             <ArrowDropDownIcon  
