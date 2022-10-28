@@ -2205,7 +2205,7 @@ textarea.form-input {
   .nav-color {
     color: #f9f9f9 !important;
     font-size: 16px;
-    text-align: left !important;
+    text-align: center !important;
     margin: 0% 0 !important;
     padding: 0% auto !important;
     border-top: solid 1px rgba(255,255,255,.08) !important;
@@ -2241,11 +2241,11 @@ textarea.form-input {
   }
 
   .nav-links-left {
-    text-align: left !important;
+    text-align: center !important;
   }
 
   .btn-align {
-    text-align: left !important;
+    text-align: center !important;
   }
   
 
@@ -2265,6 +2265,16 @@ textarea.form-input {
     margin-left: 0;
     margin-top: 12px;
     margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-links-left {
+    text-align: left !important;
+  }
+
+  .nav-color {
+    text-align: left !important;
   }
 }
 
@@ -2334,6 +2344,15 @@ textarea.form-input {
   display: block;
 }
 
+@media (max-width: 1000px) {
+  .css-1w70pfu-MuiSvgIcon-root {
+      display: none !important;
+  }
+
+  .css-x27q3f {
+    display: none !important;
+  }
+}
 @media (max-width: 599.95px) {
   .css-1w70pfu-MuiSvgIcon-root {
       display: inline-block !important;
@@ -2363,14 +2382,18 @@ textarea.form-input {
   }
 
   .dropdown-content {
-    display: none;
     background-color: #0e0f11 !important;
-    padding-left: 2% !important;
   }
 
   .header-nav-toggle + .header-nav ul a:not(.button) {
     display: block;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown-content {
+    padding-left: 2% !important;
   }
 }
 

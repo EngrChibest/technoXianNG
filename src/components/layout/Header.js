@@ -52,7 +52,7 @@ const Header = ({
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
-    nav.current.style.maxHeight = '500' + 'px';
+    nav.current.style.maxHeight = '90' + 'vh';
     nav.current.style.overflowY = 'scroll';
     setIsactive(true);
   }
