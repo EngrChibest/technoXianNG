@@ -4,7 +4,7 @@ import Image from "../../elements/Image";
 
 export default function Partners (){
     return (
-        <Container maxWidth='false' sx={{backgroundColor: '#F4F4F4', mt: '8%'}} data-aos="fade-up">
+        <Container maxWidth='false' sx={{backgroundColor: '#F4F4F4', mt: '10%', mb: '5%'}} data-aos="fade-up">
             <div className="container-sm">
                 <h3 className="partner-header">Our Partners</h3>
                 <Grid container spacing={6} sx={{pb: '5%', px: 'auto',display: 'flex', justifyContent: 'center'}}>
