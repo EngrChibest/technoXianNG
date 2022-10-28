@@ -52,7 +52,8 @@ const Header = ({
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
-    nav.current.style.maxHeight = '1000' + 'px';
+    nav.current.style.maxHeight = '500' + 'px';
+    nav.current.style.overflowY = 'scroll';
     setIsactive(true);
   }
 
@@ -154,7 +155,7 @@ const Header = ({
                         <Link to="/about" onClick={closeMenu} className='nav-links-left nav-header'>About Us</Link>
                       </li>
                       <li>
-                        <div className={navOne === true ? 'dropdown' : ' '}>
+                        <div className='dropdown'>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -162,7 +163,6 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-header nav-links-left'
-                            onMouseOver={handleNavOne}
                           >
                             Our Services
                             <span>
@@ -189,7 +189,7 @@ const Header = ({
                     
                     
                       <li>
-                        <div className={navTwo === true ? 'dropdown' : ' '}>
+                        <div className='dropdown'>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -197,7 +197,6 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
-                            onMouseOver={handleNavTwo}
                           >
                             Community
                             <ArrowDropDownIcon  
@@ -220,7 +219,7 @@ const Header = ({
                         </div>
                       </li>
                       <li>
-                      <div className={navThree === true ? 'dropdown' : ' '}>
+                      <div className='dropdown'>
                           <Link to=""
                             sx={{
                               fontSize: '16px',
@@ -228,7 +227,6 @@ const Header = ({
                               color: '#000'
                             }}
                             className='dropbtn nav-links-left nav-header'
-                            onMouseOver={handleNavThree}
                           >
                             Help
                             <ArrowDropDownIcon  

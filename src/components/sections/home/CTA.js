@@ -17,9 +17,9 @@ export default function Partners (){
             <div className="container-sm" data-aos="fade-up">
               <Grid container spacing={6} sx={{pb: '5%', px: 'auto',display: 'flex', justifyContent: 'center'}}>
               <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns">
-              <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+              <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
                 Join Our Community Today.
-              </h2>
+              </h3>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 7000+ Teams, 60+ Countries Preparing To Challenge In 10 Categories
                 USD 608,294 award money alongwith other benefits of IRC secured for year 2022  

@@ -73,7 +73,7 @@ function Newsletter (){
 
 
   return (
-    <div style={{textAlign: 'center', backgroundColor: '#F4F4F4', paddingBottom: '3%', marginTop: '10%'}} className='newletter-mobile' data-aos="fade-up">
+    <div style={{textAlign: 'center', backgroundColor: '#F4F4F4', paddingBottom: '4%', marginTop: '10%'}} className='newletter-mobile' data-aos="fade-up">
       <Grid container>
         <Grid item xs={12} sm={12} md={12} sx={{marginTop: '1%'}}>
         {Object.keys(error).length ? <center> 
@@ -107,7 +107,7 @@ function Newsletter (){
             className='alert-width'>Thank You For Subscribing</Alert></Collapse>
           </center>}
           <Box >
-              <h4 id='newsletter-text'>Subscribe to our newsletter</h4>
+              <h3 id='newsletter-text'>Subscribe to our newsletter</h3>
               <p id='newsletter-text'>and be the first to be notified of any current updates </p>
           </Box>
         </Grid>

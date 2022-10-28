@@ -2358,9 +2358,9 @@ textarea.form-input {
     width: 100%;
   }
 
-  /* .dropdown-content {
+  .dropdown-content {
     display: block !important;
-  } */
+  }
 
   .dropdown-content {
     display: none;
@@ -2687,9 +2687,19 @@ textarea.form-input {
   }
 }
 
+@media (max-width: 1024px) { 
+  .mail {
+    overflow-wrap: break-word;
+  }
+}
+
 @media (max-width: 600px) {
   .newletter-mobile {
     height: 50vh !important;
+  }
+
+  .sub-title {
+    width: 100% !important;
   }
 
   .border-white {
@@ -2725,11 +2735,11 @@ textarea.form-input {
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .newletter-mobile {
     height: 45vh !important;
   }
-}
+} */
 
 @media (max-width: 380px) {
   .newletter-mobile {
