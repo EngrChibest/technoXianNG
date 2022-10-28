@@ -10,8 +10,8 @@ export default [
         tag: 'TX WRC',
         title: 'TX World Robotics Championship',
         body: `Be the part of the community of like-minded robotics enthusiasts 
-            who are curious, innovative and creative and wish to come together to 
-            learn and share together. Building a robot is about more than just 
+            who are curious, innovative, creative and wish to
+            learn and share together. Building a robot is more than just 
             putting pieces together! Explore and analyze the world around you 
             as you understand the science behind creating and programming a 
             robot.`,

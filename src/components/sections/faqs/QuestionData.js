@@ -53,25 +53,25 @@ export default [
         First determine which of the models suit your needs, then you reach 
         out to us and we take it up from there.
         <br/><b/>
-        More information on the various models 
-         <Link top='/nxr-lab'><span style={{color: '#2E2F6E'}}>click here</span></Link></Typography>
+        More information on the various models  
+         <Link top='/nxr-lab'><span style={{color: '#2E2F6E'}}>  click here</span></Link></Typography>
     },
     {
         id: 6,
         panelNo: 'panel6',
         title: ' How long does it take to complete TechnoXian courses?',
-        description: `Yes there are certain membership payments you need to be aware of.
-        RoboClub has a monthly or termly fee. Also for those subscribing to our Zero Inception Lab Model, there is a membership fee. `
+        description: <Typography>We have various courses with their individual timelines. 
+        <b/><b/>
+        Certificate Level course like <strong> A Levels, O Levels and B Levels </strong>
+        <b/><b/>
+        courses take a year to complete and acquire the required certifications. </Typography>
     },
     {
         id: 7,
         panelNo: 'panel7',
         title: 'When I take the course, must I join the Roboclub? ',
-        description: <Typography>We have various courses with their individual timelines. 
-        <b/><b/>
-        Certificate Level course like <strong>A Levels, O Levels and B Levels</strong>
-        <b/><b/>
-        courses take a year to complete and acquire the required certifications. </Typography>
+        description: `Yes there are certain membership payments you need to be aware of.
+        RoboClub has a monthly or termly fee. Also for those subscribing to our Zero Inception Lab Model, there is a membership fee. `
     },
     {
         id: 8,

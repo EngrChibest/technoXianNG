@@ -53,15 +53,10 @@ export default function Services (){
                         Hybrid Learning Model
                     </h3>
                     <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                        This model has the added benefit of
-                        having a tutor visit the school once a
-                        week to train on site.
-                        Minimum of 10 students per school
-                        Minimum of ten members per
-                        RoboClub. Schools can have mulitiple
-                        RoboClubs.
-                        This model has the added benefit of having 
-                        a tutor visit the school once a week to train on site
+                        In this model the learners enjoys both virtual 
+                        and physical contact.  A tutor makes one contact 
+                        a week with the students.  This model however 
+                        requires a minimum of 10 members in a Roboclub.
                     </p>
                     {/* <div className="reveal-from-bottom" data-reveal-delay="600">
                         <a href={docs} target='_blank' rel="noopener noreferer">

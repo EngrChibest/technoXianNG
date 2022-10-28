@@ -65,7 +65,7 @@ const Hero = ({
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Be the part of the community of like-minded robotics enthusiasts who are curious, innovative, creative and wish to learn and share 
-                together. Building a robot is about more than just putting pieces together! Explore and analyze the world around you as you understand the science behind 
+                together. Building a robot is more than just putting pieces together! Explore and analyze the world around you as you understand the science behind 
                 creating robots.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">

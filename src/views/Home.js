@@ -27,8 +27,8 @@ const Home = () => {
       <Hero className="illustration-section-01" data-aos="fade-up"/>
       <Beneficts/>
       <Services />
-      <Partners/>
       <Table/>
+      <Partners/>
       <NewsUpdate/>
       <Newsletter/>
       <Gallery/>

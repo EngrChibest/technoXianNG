@@ -25,7 +25,7 @@ export default function Services (){
                     <div className="bodered"></div>
                 </Grid>
                 <Grid item xs={12} sm={6} md={6} data-aos="fade-up">
-                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>PROBLEM</b></p>
+                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
                         Problem Statement
                     </h3>
