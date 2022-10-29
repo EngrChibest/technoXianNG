@@ -1,7 +1,6 @@
 import { Button, Card, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import Image from '../../elements/Image';
-import docs from '../../../assets/docs/Roboclub.pdf'
 import styled from "styled-components";
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 

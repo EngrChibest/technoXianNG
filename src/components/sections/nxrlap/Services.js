@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Image from '../../elements/Image';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { styled , useTheme} from '@mui/material/styles';
-import docs from '../../../assets/docs/Robotics-Lab.pdf'
 import RecommendIcon from '@mui/icons-material/Recommend';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
