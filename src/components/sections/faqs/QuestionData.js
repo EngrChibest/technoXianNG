@@ -54,7 +54,7 @@ export default [
         out to us and we take it up from there.
         <br/><b/>
         More information on the various models  
-         <Link top='/nxr-lab'><span style={{color: '#2E2F6E'}}>  click here</span></Link></Typography>
+         <Link to='/nxr-lab'><span style={{color: '#2E2F6E'}}>  click here </span></Link></Typography>
     },
     {
         id: 6,
@@ -86,9 +86,9 @@ export default [
         title: 'How Can I volunteer for TechnoXian?',
         description: <Typography>We are always excited to have volunteers working with us. 
             <br/><br/>
-            You can volunteer to use your skills in the largest Robotics Competition In Africa. 
-            <Link top='/volunteer'><span style={{color: '#2E2F6E'}}>click here</span></Link>
-            to see our volunteer needs
+            You can volunteer to use your skills in the largest Robotics Competition In Africa.  
+            <Link to='/volunteer'><span style={{color: '#2E2F6E'}}>    click here     </span></Link>
+             to see our volunteer needs
         </Typography>
     },
     {
