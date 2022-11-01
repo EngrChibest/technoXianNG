@@ -38,7 +38,7 @@ export default function FAQquestions (){
                             Didn’t find an answer?
                         </h4>
                         <p className=" mt-0 mb-16 reveal-from-bottom " data-reveal-delay="200" style={{textAlign: 'center'}}>
-                            Our team is just an email away and ready to answer your questions
+                            Our team is just a email away and ready to answer your questions
                         </p>
                     </Grid>
                     <Grid item xs={12} sm={12} md={12} sx={{paddingTop: '1%', paddingBottom: '3%'}}>

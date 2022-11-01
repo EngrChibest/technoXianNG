@@ -201,7 +201,7 @@ export default function ContactForm(){
                 sx={{mt: '30px'}}
                 />
                 <div style={{ marginTop: '8%', marginBottom: '8%'}}>
-                    <PrimaryButton text={'Submit'} bgColor={'#00B9BC'}/>
+                    <PrimaryButton text={'Submit'} bgColor={'#00A859'}/>
                 </div>
               </center>
             </Box>

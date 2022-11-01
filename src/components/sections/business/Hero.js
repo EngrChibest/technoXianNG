@@ -1,12 +1,10 @@
 import React from 'react';
 import { Button, Grid } from '@mui/material';
-
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
 import Image from '../../elements/Image';
-import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import styled from 'styled-components';
-import { textAlign } from '@mui/system';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types
@@ -63,20 +61,20 @@ const Hero = ({
                 Techno-Entrepreneurship Contest
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                “INNOVATIONS” aims at cultivating the skills amongst the 
-                youth and all the technical aspirants by offering a robust 
-                platform to showcase your ideas and get recognised. Participants 
-                are supposed to compete with their project, concepts and innovative 
-                ideas.
+                Participants are expected to build market-ready technology which 
+                addresses a problem. The solution provided by the technology must be scalable.
+                There are 2 categories of the contest;
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
-                    <HeroButton
-                      variant="contained"
-                    >
-                      Get Started
-                    </HeroButton>
+                    <Link to='/contact'>
+                      <HeroButton
+                        variant="contained"
+                      >
+                        Get Started
+                      </HeroButton>
+                    </Link>
                   </Grid>
                 </Grid> 
               </div>

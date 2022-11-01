@@ -22,7 +22,7 @@ export default function ContactInfo() {
                         <EmailIcon sx={{color: '#00A859'}}/>
                     </div>
                     <Typography variant="p" id='contact-info-text' gutterBottom>EMAIL</Typography><br/>
-                    <Typography variant="p" fontSize={'17px'} gutterBottom>info@technoxiannigeria.ng</Typography>
+                    <Typography variant="p" fontSize={'17px'} className='mail' gutterBottom>info@technoxiannigeria.ng</Typography>
                 </Box>
             </Grid>
             <Grid item xs={12} sm={6} md={6}>
