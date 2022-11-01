@@ -40,7 +40,7 @@ export default function Services (){
 
             <Grid container spacing={5} sx={{my:'30%'}} className='MuiGrid-direction-xs-row-reverse' data-aos="fade-up">
                 <Grid item xs={12} sm={6} md={6} data-aos="fade-up">
-                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN</b></p>
+                    <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TX CONTEST</b></p>
                     <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
                         Tech Enterprise Award
                     </h3>

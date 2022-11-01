@@ -3,6 +3,7 @@ import LayoutDefault from '../layouts/LayoutDefault'
 import Hero from "../components/sections/corporate/Hero";
 import Beneficts from "../components/sections/corporate/Beneficts";
 import Services from "../components/sections/corporate/Services";
+import Choose from "../components/sections/corporate/Choose";
 import Payments from "../components/sections/corporate/Payment";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +20,8 @@ export default function Corporate () {
           <Hero/>
           <Services/>
           <Beneficts/>
-          <Payments/>
+          {/* <Payments/> */}
+          <Choose/>
       </LayoutDefault>
     )
 }
