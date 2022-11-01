@@ -14,7 +14,7 @@ export default function Beneficts (){
 
 
     return (
-        <div className="container-sm" data-aos="fade-up">
+        <div className="container-sm" data-aos="fade-up" style={{marginTop: '8%', marginBottom: '8%'}}>
             <h3 className=" mt-0 mb-16 reveal-from-bottom " data-reveal-delay="200" style={{ marginTop: '5%', textAlign: 'center', textTransform: 'capitalize'}}>Are you interested?</h3>
             <Grid container spacing={2}>
                 <Grid item xs={12} sm={12} md={12} data-aos="fade-up">
