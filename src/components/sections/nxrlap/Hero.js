@@ -1,12 +1,11 @@
 import React from 'react';
-import { Button, Grid } from '@mui/material';
+import { Box, Button, Grid, Modal } from '@mui/material';
 
 import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
 import Image from '../../elements/Image';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
-import styled from 'styled-components';
-import { textAlign } from '@mui/system';
+import { styled, useTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
 
 const propTypes = {
@@ -50,6 +49,12 @@ const Hero = ({
     textAlign: 'center'
   })
 
+  const theme = useTheme();
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
     <section
       {...props}
@@ -75,12 +80,18 @@ const Hero = ({
                 <Grid container spacing={3}>
                   <Grid item xs={12} sm={6} md={4}>
                     <Link to='/nxr-lab-form'>
-                    <HeroButton
-                      variant="contained"
-                    >
-                      Get Started
-                    </HeroButton>
+                      <HeroButton 
+                        variant="contained"
+                      >
+                        Get Started
+                      </HeroButton>
                     </Link>
+                  </Grid>
+                  <Grid item xs={12} sm={6} md={4}>
+                    <HeroButton variant="outlined" endIcon={<PlayCircleIcon/>} onClick={handleOpen}>
+                      Play Video
+                      
+                    </HeroButton>
                   </Grid>
                 </Grid> 
               </div>
@@ -97,6 +108,51 @@ const Hero = ({
             </div>
             </Grid>
           </Grid>
+
+
+          <Modal
+            keepMounted
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="keep-mounted-modal-title"
+            aria-describedby="keep-mounted-modal-description"
+          >
+            <Box 
+              sx={{
+                padding: '2%',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              <iframe 
+                className="video"
+                src="https://www.youtube.com/embed/psjWJ-2-Pug" 
+                title="Next Generation Robotics & AI Lab for Schools" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+              />
+              
+              <Button
+                onClick={handleClose}
+                variant="contained"
+                size="small"
+                sx={{
+                  height: '50px',
+                  ml: 2,
+                  [theme.breakpoints.down('sm')]: {
+                    width: '20px',
+                    height: '40px',
+                    position: 'absolute',
+                    right: '3%',
+                    top: '10%',
+                  },
+                }}
+              >
+                X
+              </Button>
+            </Box>
+          </Modal>
         </div>
       </div>
     </section>

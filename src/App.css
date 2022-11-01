@@ -2470,6 +2470,10 @@ textarea.form-input {
   height: 350px;
 }
 
+.nxr-video {
+  height: 290px !important;
+}
+
 .price-height {
   height: 515.78px;
 }

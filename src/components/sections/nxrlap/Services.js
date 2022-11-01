@@ -1,11 +1,8 @@
-import { Button, Card, Container, Grid, Typography} from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import React from "react";
-import { Link } from "react-router-dom";
 import Image from '../../elements/Image';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { styled , useTheme} from '@mui/material/styles';
 import RecommendIcon from '@mui/icons-material/Recommend';
-import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 
 
 

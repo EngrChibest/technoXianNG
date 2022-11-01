@@ -5,7 +5,6 @@ import classNames from 'classnames';
 import { SectionProps } from '../../../utils/SectionProps';
 import Image from '../../elements/Image';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
-import { textAlign } from '@mui/system';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import { styled, useTheme } from '@mui/material/styles';

@@ -3,6 +3,7 @@ import LayoutDefault from '../layouts/LayoutDefault'
 import Hero from "../components/sections/nxrlap/Hero";
 import Beneficts from "../components/sections/nxrlap/Beneficts";
 import Services from "../components/sections/nxrlap/Services";
+import Videos from "../components/sections/nxrlap/Videos";
 import Table from "../components/sections/nxrlap/Table";
 import Payment from "../components/sections/nxrlap/Payment";
 import AOS from "aos";
@@ -19,6 +20,7 @@ export default function NXRLab () {
         <LayoutDefault>
           <Hero/>
           <Services/>
+          <Videos/>
           <Beneficts/>
           <Table/>
           <Payment/>
