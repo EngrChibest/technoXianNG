@@ -1,4 +1,3 @@
-import news from '../../../assets/images/hero-image.png'
 import Seninar from '../../../assets/images/section/home/tech-seminar.jpg'
 import Challenge from '../../../assets/images/section/home/Challenges.jpg'
 import Award from '../../../assets/images/section/home/Award.png'

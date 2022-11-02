@@ -16,7 +16,7 @@ export default [
             as you understand the science behind creating and programming a 
             robot.`,
         img: HomeRobo,
-        link: '/robotics-club'
+        link: '/robotics-competition'
     },
     {
         id: 2,
