@@ -213,7 +213,7 @@ const Header = ({
                           </Link>
                           <div class="dropdown-content" style={{color: '#000'}}>
                             <Link to="/corporate-club" className='nav-color'>Corporate RoboClub</Link>
-                            <Link to="/enterpreneurship" className='nav-color' style={{marginTop: '1%', marginBottom: '1%'}}>Business Education</Link>
+                            <Link to="/enterpreneurship" className='nav-color' style={{marginTop: '1%', marginBottom: '1%'}}>Techno-Entreprenuership</Link>
                             <Link to="/volunteer" className='nav-color'>Volunteer</Link>
                           </div>
                         </div>

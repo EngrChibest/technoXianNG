@@ -141,7 +141,6 @@ const Hero = ({
           </Grid>
 
           <Modal
-            keepMounted
             open={open}
             onClose={handleClose}
             aria-labelledby="keep-mounted-modal-title"
@@ -159,7 +158,7 @@ const Hero = ({
                 src="https://www.youtube.com/embed/_DKgvOZQH_Q" 
                 title="The exciting Journey Of Technoxian World Robotics Championship | Watch Now" 
                 frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen
               />
 
