@@ -95,8 +95,7 @@ const Hero = ({
             <Grid item xs={12} sm={6} md={6} style={{display: "flex", flexDirection: "column", justifyContent: "center", position: 'relative'}} className="btns" data-aos="fade-up">
               <p className="m-0 reveal-from-bottom primary-color" data-reveal-delay="400"><b>TECHNOXIAN NIGERIA</b></p>
               <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-                Who We Are 
-                TechnoXian Nigeria
+                Who We Are
               </h1>
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 TechnoXian is a global technology education platform headquartered in New Delhi, 

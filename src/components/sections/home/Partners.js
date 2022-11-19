@@ -17,6 +17,13 @@ export default function Partners (){
                     </Grid>
                     <Grid item xs={12} sm={3} md={3}>
                         <Image
+                            src={require('./../../../assets/images/section/home/abira-logo.png')}
+                            alt="Hero" 
+                            style={{margin: '0 auto'}}
+                        />
+                    </Grid>
+                    <Grid item xs={12} sm={3} md={3}>
+                        <Image
                             src={require('./../../../assets/images/section/home/Digital.png')}
                             alt="Hero" 
                             style={{margin: '0 auto'}}
