@@ -59,10 +59,10 @@ export default function PopUpModal(){
                     <CloseIcon fontSize='large'/>
                 </IconButton> */}
                 <Typography id="keep-mounted-modal-title" variant="h5" component="h5" style={{mt: 2, mb: 5 }}>
-                    WORLD ROBOTICS CHAMPIONSHIP’2023
+                    WORLD ROBOTICS CHAMPIONSHIP’2026
                 </Typography>
                 <Typography id="keep-mounted-modal-title" variant="body2" component="body2" sx={{my: '5%' }}>
-                    JULY 2-5, 2023
+                    JULY 2-5, 2026
                 </Typography>
                 <Typography id="keep-mounted-modal-body" variant="p" component="p" style={{mt: 2, mb: 5 }}>
                     Learning, Sharing, Competing, Winning! Youngsters from world over
