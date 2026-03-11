@@ -1,20 +1,9 @@
-import { Button, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
 import Image from '../../elements/Image';
-import { styled , useTheme} from '@mui/material/styles';
 import RecommendIcon from '@mui/icons-material/Recommend';
 
-
-
 export default function Services (){
-    const theme = useTheme()
-
-    const LearnLink = styled(Button)({
-        textTransform: 'capitalize',
-        fontSize: '16px',
-        marginTop: '5%',
-    })
-
     return (
         <div className="container-sm" data-aos="fade-up">
             <Grid container spacing={5} sx={{my:'20%'}} data-aos="fade-up">
