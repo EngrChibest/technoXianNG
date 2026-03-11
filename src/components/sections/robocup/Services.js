@@ -1,0 +1,22 @@
+import React from "react";
+import Data from "./Data";
+import ServicesCard from "./ServiceCard";
+
+
+export default function Services (){
+    return (
+        <div className="container-sm">
+            {Data.map((item) => (
+                <ServicesCard
+                    image={item.img}
+                    tag={item.tag}
+                    title={item.title}
+                    body={item.body}
+                    links={item.links}
+                    face={item.face}
+                    status={item.status}
+                />
+            ))}
+        </div>
+    )
+}
