@@ -1,9 +1,8 @@
-import { Button, Card, Container, Grid, Typography } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import React from "react";
 import Image from '../../elements/Image';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 
 const LearnLink = styled(Button)({

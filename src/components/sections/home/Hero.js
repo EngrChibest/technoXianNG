@@ -7,7 +7,7 @@ import Image from '../../elements/Image';
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
-import { styled, useTheme } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
 
 const propTypes = {
@@ -77,8 +77,6 @@ const Hero = ({
     //   boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
     // },
   })
-
-  const theme = useTheme();
 
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
@@ -169,7 +167,7 @@ const Hero = ({
                 sx={{
                   height: '50px',
                   ml: 2,
-                  [theme.breakpoints.down('sm')]: {
+                  '(max-width: 600px)': {
                     width: '20px',
                     height: '40px',
                     position: 'absolute',

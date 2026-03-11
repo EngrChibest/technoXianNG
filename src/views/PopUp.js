@@ -24,7 +24,7 @@ export default function NXRLabForm () {
               />
             </Grid>
             <Grid item xs={12} sm={7} md={7} className='form-margin' data-aos="fade-up">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScpmBLypjPFFza0v3eewpj3DAxJjXtKt76_avKN0JDRzn8j4g/viewform?embedded=true" className='form-dimension' frameborder="0">Loading…</iframe>
+                <iframe title="Pop-Up Registration Form" src="https://docs.google.com/forms/d/e/1FAIpQLScpmBLypjPFFza0v3eewpj3DAxJjXtKt76_avKN0JDRzn8j4g/viewform?embedded=true" className='form-dimension' frameBorder="0">Loading…</iframe>
             </Grid>
           </Grid>
       </div>
